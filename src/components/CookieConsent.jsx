@@ -12,33 +12,41 @@ const CookieConsent = () => {
   const [consent, setConsent] = useState(null);
 
   useEffect(() => {
-    try {
-      const savedConsent = Cookies.get('cookieConsent');
-      if (savedConsent) {
-        setConsent(savedConsent === 'true');
-      }
-    } catch (error) {
-      console.error('Error reading cookie consent:', error);
+    const savedConsent = Cookies.get('cookieConsent');
+    if (savedConsent) {
+      setConsent(savedConsent === 'true');
     }
   }, []);
 
   const handleAccept = () => {
-    try {
-      Cookies.set('cookieConsent', 'true', { expires: 365 });
-      setConsent(true);
-    } catch (error) {
-      console.error('Error setting cookie consent:', error);
-    }
+    Cookies.set('cookieConsent', 'true', { expires: 30 });
+    setConsent(true);
+
+    const script = document.createElement('script');
+    script.innerHTML = `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KPL3PGF');`;
+    document.head.appendChild(script);
+
+    const noscript = document.createElement('noscript');
+    const iframe = document.createElement('iframe');
+    iframe.src = "https://www.googletagmanager.com/ns.html?id=GTM-KPL3PGF";
+    iframe.height = "0";
+    iframe.width = "0";
+    iframe.style.display = "none";
+    iframe.style.visibility = "hidden";
+    noscript.appendChild(iframe);
+    document.body.appendChild(noscript);
   };
 
   const handleDecline = () => {
-    try {
-      Cookies.set('cookieConsent', 'false', { expires: 365 });
-      removeNonEssentialCookies();
-      setConsent(false);
-    } catch (error) {
-      console.error('Error setting cookie consent:', error);
-    }
+    Object.keys(Cookies.get()).forEach(cookie => {
+      Cookies.remove(cookie);
+    });
+    Cookies.set('cookieConsent', 'false', { expires: 30 });
+    setConsent(false);
   };
 
   if (consent !== null) {
