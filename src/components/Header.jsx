@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation} from 'react-router-dom';
 import halibutLogo from '../assets/logo.png';
+import ccmLogo from '../assets/cuidarmais-mais.png';
 import { Instagram, Facebook, X, Menu } from 'lucide-react';
 
 const Header = () => {
@@ -83,13 +84,22 @@ const Header = () => {
                         </Link>
                         
                     </div>
-                    <div className='gap-x-7 hidden md:flex'>
+                    
+                    <div className='gap-x-5 hidden md:flex'>
                         <a href="https://www.instagram.com/halibutportugal/">
                             <Instagram className='sm:hover:scale-105 duration-500 ease-in-out text-accent hover:text-black'/>
                         </a>
                         <a href="https://www.facebook.com/halibutportugal/">
                             <Facebook className='sm:hover:scale-105 duration-500 ease-in-out text-accent hover:text-black'/>
                         </a>
+                    </div>
+                    
+                    <div className='sm:flex'>
+                        <div className='ccmais bg-white font-roboto'>
+                            <a className='btn-ccmais' target="_blank" href="https://clubecuidarmais.com/">
+                                CLUBE CUIDAR <img src={ccmLogo} alt="+" />
+                            </a>
+                        </div>
                     </div>
                 </div>
 
