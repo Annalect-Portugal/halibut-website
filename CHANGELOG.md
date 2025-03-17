@@ -12,6 +12,31 @@
 - **Production URL:** [https://halibut.pt](https://halibut.pt) - Hosted on Vercel
 - **Staging Server:** WIP
 
+## v1.0.2
+
+### RELEASE INFO
+- **Release Date:** 2025-03-17
+- **Version:** 1.0.2
+- **Environment:** Production
+
+### RELEASE NOTES
+This release inclues a new button for the clube cuidar mais website.
+
+### CHANGES / FIXES
+- Added a new button for the clube cuidar mais website.
+
+### UPDATES
+Updated the following dependencies to their latest available versions:
+- `@vitejs/plugin-react` from `^4.3.1` to `^4.3.2`
+- `autoprefixer` from `^10.4.19` to `^10.4.20`
+- `eslint` from `^8.57.0` to `^8.58.0`
+- `eslint-plugin-react` from `^7.34.3` to `^7.34.4`
+- `eslint-plugin-react-hooks` from `^4.6.2` to `^4.6.3`
+- `eslint-plugin-react-refresh` from `^0.4.7` to `^0.4.8`
+- `postcss` from `^8.4.39` to `^8.4.40`
+- `tailwindcss` from `^3.4.6` to `^3.4.7`
+- `vite` from `^5.3.4` to `^5.3.5`
+
 ## v1.0.1
 
 ### RELEASE INFO
