@@ -1,6 +1,8 @@
 # CHANGELOG
+
 ## HALIBUT
 [https://halibut.pt](https://halibut.pt)
+
 ## PROJECT INFO
 - **Client:** Medinfar
 - **Brand Name:** Halibut
@@ -11,6 +13,24 @@
 - **Git Repository:** [https://github.com/Annalect-Portugal/halibut-website](https://github.com/Annalect-Portugal/halibut-website)
 - **Production URL:** [https://halibut.pt](https://halibut.pt) - Hosted on Vercel
 - **Staging Server:** WIP
+
+## v1.0.3
+
+### RELEASE INFO
+- **Release Date:** 2025-04-24
+- **Version:** 1.0.3
+- **Environment:** Production
+
+### RELEASE NOTES
+This release inclues a new version of the cookie banner by YDigital Media.
+
+### CHANGES / FIXES
+- Added a new Legacy Cookie Banner fix sent by YDigital Media.
+
+### UPDATES
+Updated dependencies to their latest available versions.
+
+####################################################################################################
 
 ## v1.0.2
 
@@ -26,16 +46,9 @@ This release inclues a new button for the clube cuidar mais website.
 - Added a new button for the clube cuidar mais website.
 
 ### UPDATES
-Updated the following dependencies to their latest available versions:
-- `@vitejs/plugin-react` from `^4.3.1` to `^4.3.2`
-- `autoprefixer` from `^10.4.19` to `^10.4.20`
-- `eslint` from `^8.57.0` to `^8.58.0`
-- `eslint-plugin-react` from `^7.34.3` to `^7.34.4`
-- `eslint-plugin-react-hooks` from `^4.6.2` to `^4.6.3`
-- `eslint-plugin-react-refresh` from `^0.4.7` to `^0.4.8`
-- `postcss` from `^8.4.39` to `^8.4.40`
-- `tailwindcss` from `^3.4.6` to `^3.4.7`
-- `vite` from `^5.3.4` to `^5.3.5`
+Updated dependencies to their latest available versions.
+
+####################################################################################################
 
 ## v1.0.1
 
@@ -57,16 +70,9 @@ No new features in this release.
 - Added a new Legacy Cookie Banner fix sent by YDigital Media.
 
 ### UPDATES
-Updated the following dependencies to their latest available versions:
-- `@vitejs/plugin-react` from `^4.2.0` to `^4.3.1`
-- `autoprefixer` from `^10.4.18` to `^10.4.19`
-- `eslint` from `^8.56.0` to `^8.57.0`
-- `eslint-plugin-react` from `^7.34.2` to `^7.34.3`
-- `eslint-plugin-react-hooks` from `^4.6.1` to `^4.6.2`
-- `eslint-plugin-react-refresh` from `^0.4.6` to `^0.4.7`
-- `postcss` from `^8.4.38` to `^8.4.39`
-- `tailwindcss` from `^3.4.5` to `^3.4.6`
-- `vite` from `^5.3.3` to `^5.3.4`
+Updated dependencies to their latest available versions.
+
+####################################################################################################
 
 ## v1.0.0
 
