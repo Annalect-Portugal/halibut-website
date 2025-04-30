@@ -14,6 +14,24 @@
 - **Production URL:** [https://halibut.pt](https://halibut.pt) - Hosted on Vercel
 - **Staging Server:** WIP
 
+## v1.0.4
+
+### RELEASE INFO
+- **Release Date:** 2025-04-30
+- **Version:** 1.0.4
+- **Environment:** Production
+
+### RELEASE NOTES
+This release inclues a new version of the cookie banner by YDigital Media.
+
+### CHANGES / FIXES
+- Update product images for "muda-fraldas" section
+
+### UPDATES
+Updated dependencies to their latest available versions.
+
+####################################################################################################
+
 ## v1.0.3
 
 ### RELEASE INFO
