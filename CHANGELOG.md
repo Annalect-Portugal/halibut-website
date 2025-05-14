@@ -14,6 +14,22 @@
 - **Production URL:** [https://halibut.pt](https://halibut.pt) - Hosted on Vercel
 - **Staging Server:** WIP
 
+## v1.0.5
+
+### RELEASE INFO
+- **Release Date:** 2025-05-14
+- **Version:** 1.0.5
+- **Environment:** Production
+
+### RELEASE NOTES
+This release includes a banner for a new campaign.
+
+### CHANGES / FIXES
+- Homepage Banner changed for a new campaign.
+
+### UPDATES
+Updated dependencies to their latest available versions.
+
 ## v1.0.4
 
 ### RELEASE INFO
