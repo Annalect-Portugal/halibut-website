@@ -1,7 +1,5 @@
 import React, {useEffect} from 'react'
-import Banner from '../components/Banner'
-import desktopHomeBanner from '../assets/banners/home/desktop.png'
-import mobileHomeBanner from '../assets/banners/home/mobile.png'
+import HomeBanner from '../components/HomeBanner'
 import Title from '../components/Title'
 import iconFeridas from '../assets/home-icons/feridas.png'
 import iconIrritacoes from '../assets/home-icons/irritacoes.png'
@@ -12,6 +10,10 @@ import iconSensibilizada from '../assets/home-icons/sensibilizada.png'
 import Card from '../components/Card'
 import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
+import banner1 from '../assets/banners/home/banner1.png';
+import banner1Mobile from '../assets/banners/home/banner1-mobile.png';
+import defaultBanner from '../assets/banners/home/default.png';
+import defaultBannerMobile from '../assets/banners/home/default-mobile.png';
 
 const Home = () => {
 
@@ -24,7 +26,12 @@ const Home = () => {
       <Helmet>
          <title>Halibut</title>
       </Helmet>
-     <Banner image={desktopHomeBanner} mobileImage={mobileHomeBanner} />
+      <HomeBanner
+         banners={[
+            { image: banner1, mobileImage: banner1Mobile, link: 'https://clubecuidarmais.com/' },
+            { image: defaultBanner, mobileImage: defaultBannerMobile, link: '/' }
+         ]}
+      />
      <Title title={"Toda a Gama Halibut"} subtitle={"Qualidade garantida, geração em geração"} />
      <div className="container mx-auto grid grid-cols-2 justify-center items-center sm:space-x-5 sm:flex sm:flex-row" id='anchor'>
          <Link to={'/muda-fraldas'}>
