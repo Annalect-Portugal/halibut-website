@@ -94,7 +94,7 @@ const Header = () => {
                         </a>
                     </div>
                     
-                    <div className='sm:flex'>
+                    <div className="hidden md:flex">
                         <div className='ccmais bg-white font-roboto'>
                             <a className='btn-ccmais' target="_blank" href="https://clubecuidarmais.com/">
                                 CLUBE CUIDAR <img src={ccmLogo} alt="+" />
@@ -107,7 +107,7 @@ const Header = () => {
                     {nav ? <X size={45} color='#604a3c' /> : <Menu size={45} color='#604a3c'/>} 
                 </div>
 
-                <div className={nav ? "fixed left-0 top-0 w-[80%] h-full bg-white ease-in-out duration-500 md:hidden" : "ease-in-out top-0 w-[70%] h-full bg-primary duration-200 fixed left-[-100%] md:hidden" }>
+                <div className={nav ? "fixed left-0 top-0 w-[80%] h-full bg-white z-50 ease-in-out duration-500 md:hidden" : "ease-in-out top-0 w-[70%] h-full bg-primary duration-200 fixed left-[-100%] md:hidden" }>
                     <img className={nav ? "max-h-12 p-4 mt-4 mx-auto" : "hidden"} src={halibutLogo} alt="Halibut" />
                     <ul className={nav ? "uppercase px-10 flex flex-col font-helvemedium  space-y-5 mt-7" : "hidden"}>
                         <Link to={'/'}>
@@ -134,6 +134,16 @@ const Header = () => {
                         <Link to={'/blog'}>
                             <li className={`border-b-2 pb-1 duration-500 ease-in-out hover:text-accent ${isActive('/blog') ? 'border-b-primary' : ' hover:border-b-primary'}`} onClick={handleNav}>Artigos</li>
                         </Link>
+                        <li className="mt-4">
+                            <a
+                                className="btn-ccmais flex items-center justify-center gap-2 bg-white font-roboto px-4 py-2 rounded shadow"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://clubecuidarmais.com/"
+                            >
+                                CLUBE CUIDAR <img src={ccmLogo} alt="+" className="inline h-5" />
+                            </a>
+                        </li>
                     </ul>
                 </div>   
             </div>
