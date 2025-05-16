@@ -2,7 +2,7 @@ import React from 'react';
 
 const Banner = ({ image, mobileImage }) => {
     return (
-        <a href="https://clubecuidarmais.com/" target="_blank" rel="noopener noreferrer">
+        <>
             <div className="w-full h-[600px] sm:h-auto items-center justify-center hidden sm:flex">
                 <img 
                     src={image} 
@@ -17,7 +17,7 @@ const Banner = ({ image, mobileImage }) => {
                     className="w-full h-full object-cover" 
                 />
             </div>
-        </a>
+        </>
     );
 };
 
