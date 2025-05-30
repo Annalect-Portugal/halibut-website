@@ -16,6 +16,7 @@ const PeleSensibilizada = lazy(() => import('../pages/PeleSensibilizada'));
 const FraldasLinimento = lazy(() => import('../pages/FraldasLinimento'));
 const FraldasProtetor = lazy(() => import('../pages/FraldasProtetor'));
 const FraldasReparadora = lazy(() => import('../pages/FraldasReparadora'));
+const FraldasRegeneradora = lazy(() => import('../pages/FraldasRegeneradora'));
 const QueimadurasProduct = lazy(() => import('../pages/QueimadurasProduct'));
 const PomadaOriginal = lazy(() => import('../pages/PomadaOriginal'));
 const Cookies = lazy(() => import('../pages/Cookies'));
@@ -62,6 +63,7 @@ function RoutesWrapper() {
         <Route path="/linimento" element={<MotionWrapper><FraldasLinimento /></MotionWrapper>} />
         <Route path="/creme-protetor" element={<MotionWrapper><FraldasProtetor /></MotionWrapper>} />
         <Route path="/pomada-reparadora" element={<MotionWrapper><FraldasReparadora /></MotionWrapper>} />
+        <Route path="/pomada-regeneradora" element={<MotionWrapper><FraldasRegeneradora /></MotionWrapper>} />
         <Route path="/queimaduras" element={<MotionWrapper><Queimaduras /></MotionWrapper>} />
         <Route path="/halibutqueimaduras" element={<MotionWrapper><QueimadurasProduct /></MotionWrapper>} />
         <Route path="/feridas" element={<MotionWrapper><Feridas /></MotionWrapper>} />
