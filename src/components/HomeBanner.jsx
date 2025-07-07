@@ -45,9 +45,9 @@ const HomeBanner = ({ banners }) => {
     const hasPrev = banners.length > 1 && current > 0;
     const hasNext = banners.length > 1 && current < banners.length - 1;
 
-    // Auto-cycle every 3 seconds, pause on hover
+    // Auto-cycle every 3 seconds, pause on hover - only if multiple banners
     useEffect(() => {
-        if (isHovered) return;
+        if (isHovered || banners.length <= 1) return;
         const interval = setInterval(() => {
             setFade(false);
             timeoutRef.current = setTimeout(() => {
@@ -66,17 +66,20 @@ const HomeBanner = ({ banners }) => {
             className="relative w-full z-0"
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
-            onTouchStart={e => setTouchStartX(e.touches[0].clientX)}
-            onTouchMove={e => setTouchEndX(e.touches[0].clientX)}
-            onTouchEnd={() => {
-                if (touchStartX !== null && touchEndX !== null) {
-                    const distance = touchStartX - touchEndX;
-                    if (distance > 50) nextSlide();
-                    if (distance < -50) prevSlide();
+            // Only add touch handlers if multiple banners
+            {...(banners.length > 1 && {
+                onTouchStart: e => setTouchStartX(e.touches[0].clientX),
+                onTouchMove: e => setTouchEndX(e.touches[0].clientX),
+                onTouchEnd: () => {
+                    if (touchStartX !== null && touchEndX !== null) {
+                        const distance = touchStartX - touchEndX;
+                        if (distance > 50) nextSlide();
+                        if (distance < -50) prevSlide();
+                    }
+                    setTouchStartX(null);
+                    setTouchEndX(null);
                 }
-                setTouchStartX(null);
-                setTouchEndX(null);
-            }}
+            })}
         >
             <a href={link || "https://clubecuidarmais.com/"} target="_blank" rel="noopener noreferrer">
                 <div className={`w-full h-[600px] sm:h-auto items-center justify-center hidden sm:flex transition-opacity duration-300 ${fade ? 'opacity-100' : 'opacity-0'}`}>
@@ -94,7 +97,8 @@ const HomeBanner = ({ banners }) => {
                     />
                 </div>
             </a>
-            {hasPrev && (
+            {/* Only show navigation buttons if multiple banners */}
+            {banners.length > 1 && hasPrev && (
                 <button
                     onClick={prevSlide}
                     className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-white/70 rounded-full px-1 py-1 flex items-center justify-center"
@@ -114,7 +118,7 @@ const HomeBanner = ({ banners }) => {
                     </svg>
                 </button>
             )}
-            {hasNext && (
+            {banners.length > 1 && hasNext && (
                 <button
                     onClick={nextSlide}
                     className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-white/70 rounded-full px-1 py-1 flex items-center justify-center"
@@ -134,22 +138,26 @@ const HomeBanner = ({ banners }) => {
                     </svg>
                 </button>
             )}
-            <div className="absolute bottom-2 left-1/2 transform -translate-x-1/2 flex gap-2">
-                {banners.map((_, idx) => (
-                    <button
-                        key={idx}
-                        onClick={() => goToSlide(idx)}
-                        className={`w-3 h-3 rounded-full border-2 border-white flex items-center justify-center transition-colors duration-200 ${
-                            idx === current ? 'bg-[rgb(17,111,119)]' : 'bg-gray-300'
-                        }`}
-                        aria-label={`Go to slide ${idx + 1}`}
-                        style={{
-                            boxShadow: idx === current ? '0 0 0 2px rgba(17,111,119,0.3)' : undefined,
-                            padding: 0 // Remove default button padding for perfect centering
-                        }}
-                    />
-                ))}
-            </div>
+            
+            {/* Only show dots if multiple banners */}
+            {banners.length > 1 && (
+                <div className="absolute bottom-2 left-1/2 transform -translate-x-1/2 flex gap-2">
+                    {banners.map((_, idx) => (
+                        <button
+                            key={idx}
+                            onClick={() => goToSlide(idx)}
+                            className={`w-3 h-3 rounded-full border-2 border-white flex items-center justify-center transition-colors duration-200 ${
+                                idx === current ? 'bg-[rgb(17,111,119)]' : 'bg-gray-300'
+                            }`}
+                            aria-label={`Go to slide ${idx + 1}`}
+                            style={{
+                                boxShadow: idx === current ? '0 0 0 2px rgba(17,111,119,0.3)' : undefined,
+                                padding: 0 // Remove default button padding for perfect centering
+                            }}
+                        />
+                    ))}
+                </div>
+            )}
         </div>
     );
 };

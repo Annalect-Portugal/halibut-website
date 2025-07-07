@@ -10,10 +10,8 @@ import iconSensibilizada from '../assets/home-icons/sensibilizada.png'
 import Card from '../components/Card'
 import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
-import banner1 from '../assets/banners/home/banner1.png';
-import banner1Mobile from '../assets/banners/home/banner1-mobile.png';
-import defaultBanner from '../assets/banners/home/default.png';
-import defaultBannerMobile from '../assets/banners/home/default-mobile.png';
+import defaultBanner from '../assets/banners/home/default.png'
+import defaultBannerMobile from '../assets/banners/home/default-mobile.png'
 
 const Home = () => {
 
@@ -28,7 +26,6 @@ const Home = () => {
       </Helmet>
       <HomeBanner
          banners={[
-            { image: banner1, mobileImage: banner1Mobile, link: 'https://clubecuidarmais.com/' },
             { image: defaultBanner, mobileImage: defaultBannerMobile, link: '/' }
          ]}
       />
