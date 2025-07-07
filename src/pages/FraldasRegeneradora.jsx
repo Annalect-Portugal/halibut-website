@@ -71,10 +71,10 @@ const FraldasRegeneradora = () => {
             (
               <div>
                 <h2 className='text-[#9CD061] font-robotobold text-3xl mb-6'>Como aplicar HALIBUT Muda Fraldas® Pomada Regeneradora 45ZN​?​​</h2>
-                <p className='text-accent mb-5 text-md'>Aplicar em cada muda da fralda, durante 7 dias, em camada fina e homogénea, na pele limpa e seca. Se ​após estes dias a zona da fralda continuar alterada, consulte o médico. Antes da utilização de <Link to={'/linimento'} className='underline'>HALIBUT​ Muda Fraldas® Pomada Regeneradora</Link> recomendamos que limpe suavemente a pele do bebé com​ HALIBUT​ Muda Fraldas® Linimento, para um cuidado completo na prevenção da assadura da fralda.​​​​</p>
+                <p className='text-accent mb-5 text-md'>Aplicar em cada muda da fralda, em camada fina e homogénea, na pele limpa e seca. Se ​após estes dias a zona da fralda continuar alterada, consulte o médico. Antes da utilização de <Link to={'/linimento'} className='underline'>HALIBUT​ Muda Fraldas® Pomada Regeneradora</Link> recomendamos que limpe suavemente a pele do bebé com​ HALIBUT​ Muda Fraldas® Linimento, para um cuidado completo na prevenção da assadura da fralda.​​​​</p>
                 <p className='text-accent text-md'>Principais vantagens:</p>
                 <ul className='text-accent text-md'>
-                  <li>• Regenera a pele 3x mais rápido**​​​</li>
+                  <li>• Protege e regenera a pele 3x mais rápido**<sup>1</sup>​</li>
                   <li>• 96% dos utilizadores referiram sentir a pele do seu bebé mais hidratada, protegida e regenerada*​​​</li>
                   <li>• 96% dos utilizadores referiram verificar uma redução da vermelhidão e irritação na pele do seu bebé*​</li>
                   <li>• Textura agradável e fácil de espalhar*</li>
@@ -98,7 +98,7 @@ const FraldasRegeneradora = () => {
         <section className='container max-w-[60%] mx-auto flex flex-col'>
           <div className='mx-auto text-left mt-10'>
             <p className='text-[#AAAAAA] font-rsoboto text-xs mb-5'><small>*Confirmation in human subjects of the compatibility and acceptability of a cosmetic product after application under normal conditions of use subjective assessment of its cosmetic qualities and efficacy.<br/> Teste de utilização sob controlo dermatológico e controlo pediátrico. HALIBUT MUDA FRALDAS POMADA REGENERADORA 45ZN. Estudo realizado em 20 crianças (Fevereiro 2025)</small></p>
-            <p className='text-[#AAAAAA] font-roboto text-xs'><small>**Evaluation in subjects of the efficacy of a cosmetic product in use study of protection and regeneration effect objective erythema evaluation by chromameter.<br/> Pele previamente protegida. HALIBUT MUDA FRALDAS POMADA REGENERADORA 45ZN. Estudo realizado em 12 adultos (Janeiro 2025)</small></p>
+            <p className='text-[#AAAAAA] font-roboto text-xs'><small>**1: Com a pele previamente protegida.<br/>Evaluation in subjects of the efficacy of a cosmetic product in use study of protection and regeneration effect objective erythema evaluation by chromameter.<br/> Pele previamente protegida. HALIBUT MUDA FRALDAS POMADA REGENERADORA 45ZN. Estudo realizado em 12 adultos (Janeiro 2025)</small></p>
           </div>
         </section>
     </>
