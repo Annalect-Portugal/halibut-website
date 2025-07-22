@@ -97,8 +97,8 @@ const FraldasRegeneradora = () => {
 
         <section className='container max-w-[60%] mx-auto flex flex-col'>
           <div className='mx-auto text-left mt-10'>
-            <p className='text-[#AAAAAA] font-rsoboto text-xs mb-5'><small>*Confirmation in human subjects of the compatibility and acceptability of a cosmetic product after application under normal conditions of use subjective assessment of its cosmetic qualities and efficacy.<br/> Teste de utilização sob controlo dermatológico e controlo pediátrico. HALIBUT MUDA FRALDAS POMADA REGENERADORA 45ZN. Estudo realizado em 20 crianças (Fevereiro 2025)</small></p>
-            <p className='text-[#AAAAAA] font-roboto text-xs'><small>**1: Com a pele previamente protegida.<br/>Evaluation in subjects of the efficacy of a cosmetic product in use study of protection and regeneration effect objective erythema evaluation by chromameter.<br/> Pele previamente protegida. HALIBUT MUDA FRALDAS POMADA REGENERADORA 45ZN. Estudo realizado em 12 adultos (Janeiro 2025)</small></p>
+            <p className='text-[#AAAAAA] font-rsoboto text-xs mb-5'><small>*Confirmação da compatibilidade e aceitabilidade de um produto cosmético após a sua aplicação em condições normais de uso em humanos, com avaliação subjetiva das suas qualidades cosméticas e eficácia.<br/>Teste de utilização sob controlo dermatológico e controlo pediátrico. Halibut Muda Fraldas® Pomada Regeneradora. Estudo realizado em 22 crianças (Fevereiro 2025).</small></p>
+            <p className='text-[#AAAAAA] font-roboto text-xs'><small>** Avaliação da eficácia de um produto cosmético num estudo de utilização, com análise dos efeitos de proteção e regeneração, através de avaliação objetiva do eritema com recurso a um cromâmetro.<br/>Halibut Muda Fraldas (símbolo marca registada) Pomada Regeneradora. Estudo realizado em 12 adultos (janeiro 2025).<br/>1 Com a pele previamente protegida.</small></p>
           </div>
         </section>
     </>
