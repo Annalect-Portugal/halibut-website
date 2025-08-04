@@ -1,18 +1,11 @@
 {
-  "routes": [
-    {
-      "src": "/[^.]+",
-      "dest": "/",
-      "status": 200
-    }
-  ],
   "headers": [
     {
       "source": "/(.*)",
       "headers": [
         {
           "key": "Content-Security-Policy",
-          "value": "default-src 'self'; img-src *; script-src 'self'; style-src 'self' 'unsafe-inline'"
+          "value": "default-src 'self'; img-src *; script-src 'self' https://halibut.pt https://vercel.live; style-src 'self' 'unsafe-inline' https://halibut.pt"
         },
         {
           "key": "Strict-Transport-Security",
@@ -27,7 +20,7 @@
   ],
   "redirects": [
     {
-      "source": "http://halibut.pt/:path*",
+      "source": "/:path*",
       "destination": "https://halibut.pt/:path*",
       "permanent": true
     }
