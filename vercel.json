@@ -17,12 +17,5 @@
         }
       ]
     }
-  ],
-  "redirects": [
-    {
-      "source": "/(.*)",
-      "destination": "https://halibut.pt/$1",
-      "permanent": true
-    }
   ]
 }
