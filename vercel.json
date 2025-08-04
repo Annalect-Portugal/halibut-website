@@ -5,7 +5,7 @@
       "headers": [
         {
           "key": "Content-Security-Policy",
-          "value": "default-src 'self'; img-src *; script-src 'self' https://halibut.pt https://vercel.live; style-src 'self' 'unsafe-inline' https://halibut.pt"
+          "value": "default-src 'self'; img-src *; script-src 'self'; style-src 'self' 'unsafe-inline'"
         },
         {
           "key": "Strict-Transport-Security",
@@ -16,13 +16,6 @@
           "value": "nosniff"
         }
       ]
-    }
-  ],
-  "redirects": [
-    {
-      "source": "/:path*",
-      "destination": "https://halibut.pt/:path*",
-      "permanent": true
     }
   ]
 }
