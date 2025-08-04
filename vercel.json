@@ -1,11 +1,4 @@
 {
-  "routes": [
-    {
-      "src": "/[^.]+",
-      "dest": "/",
-      "status": 200
-    }
-  ],
   "headers": [
     {
       "source": "/(.*)",
@@ -27,7 +20,7 @@
   ],
   "redirects": [
     {
-      "source": "http://halibut.pt/:path*",
+      "source": "/:path*",
       "destination": "https://halibut.pt/:path*",
       "permanent": true
     }
