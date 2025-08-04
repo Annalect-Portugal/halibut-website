@@ -6,8 +6,23 @@
         {
           "key": "Content-Security-Policy",
           "value": "default-src 'self'; img-src * data:; script-src https: 'unsafe-inline'; style-src https: 'unsafe-inline'; frame-src https:; connect-src https:"
+        },
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=63072000; includeSubDomains; preload"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
         }
       ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://halibut.pt/$1",
+      "permanent": true
     }
   ]
 }
