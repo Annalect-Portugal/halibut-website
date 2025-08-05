@@ -23,8 +23,8 @@ const artigo7 = {
             <div className="">
                 <ul className="list-disc list-inside space-y-3 pl-5 mb-4">
                     <li>O aleitamento materno exclusivo durante os primeiros 6 meses de vida da criança e a sua manutenção, até aos 2 anos ou mais.</li>
-                    <li>Que todos os Hospitais com serviços de pediatria e obstetrícia, organizem a sua candidatura à UNICEF para uma certificação como “Hospital Amigo dos Bebés”, para garantir sucesso no estabelecimento do aleitamento materno.</li>
-                    <li>Que os Cuidados de Saúde Primários, se candidatem igualmente à certificação da UNICEF como “Unidade de Saúde Amiga dos Bebés”, assegurando-se uma resposta organizada e de qualidade aos desafios do aleitamento materno.</li>
+                    <li>Que todos os Hospitais com serviços de pediatria e obstetrícia, organizem a sua candidatura à  UNICEF para uma certificação como “Hospital Amigo dos Bebés”, para garantir sucesso no estabelecimento do aleitamento materno.</li>
+                    <li>Que os Cuidados de Saúde Primários, se candidatem igualmente à  certificação da UNICEF como “Unidade de Saúde Amiga dos Bebés”, assegurando-se uma resposta organizada e de qualidade aos desafios do aleitamento materno.</li>
                     <li>Que os enfermeiros e restantes profissionais implementem e façam cumprir o Código Internacional de Marketing de Substitutos do Leite Materno.</li>
                 </ul>
                 <br>

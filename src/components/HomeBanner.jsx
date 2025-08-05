@@ -13,8 +13,8 @@ const HomeBanner = ({ banners }) => {
 
     const nextSlide = () => {
         setFade(false);
-        clearTimeout(timeoutRef.current);
-        timeoutRef.current = setTimeout(() => {
+        window.clearTimeout(timeoutRef.current);
+        timeoutRef.current = window.setTimeout(() => {
             setCurrent((prev) => (prev + 1) % banners.length);
             setFade(true);
         }, 300);
@@ -22,8 +22,8 @@ const HomeBanner = ({ banners }) => {
 
     const prevSlide = () => {
         setFade(false);
-        clearTimeout(timeoutRef.current);
-        timeoutRef.current = setTimeout(() => {
+        window.clearTimeout(timeoutRef.current);
+        timeoutRef.current = window.setTimeout(() => {
             setCurrent((prev) => (prev - 1 + banners.length) % banners.length);
             setFade(true);
         }, 300);
@@ -32,8 +32,8 @@ const HomeBanner = ({ banners }) => {
     const goToSlide = (idx) => {
         if (idx !== current) {
             setFade(false);
-            clearTimeout(timeoutRef.current);
-            timeoutRef.current = setTimeout(() => {
+            window.clearTimeout(timeoutRef.current);
+            timeoutRef.current = window.setTimeout(() => {
                 setCurrent(idx);
                 setFade(true);
             }, 300);
@@ -48,16 +48,16 @@ const HomeBanner = ({ banners }) => {
     // Auto-cycle every 3 seconds, pause on hover - only if multiple banners
     useEffect(() => {
         if (isHovered || banners.length <= 1) return;
-        const interval = setInterval(() => {
+        const interval = window.setInterval(() => {
             setFade(false);
-            timeoutRef.current = setTimeout(() => {
+            timeoutRef.current = window.setTimeout(() => {
                 setCurrent((prev) => (prev + 1) % banners.length);
                 setFade(true);
             }, 300);
         }, 5000);
         return () => {
-            clearInterval(interval);
-            clearTimeout(timeoutRef.current);
+            window.clearInterval(interval);
+            window.clearTimeout(timeoutRef.current);
         };
     }, [banners.length, current, isHovered]);
 
