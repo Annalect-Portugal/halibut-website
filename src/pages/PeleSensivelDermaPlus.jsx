@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import Title from '../components/Title'
 import peleIcon from '../assets/pelesensibilizada/sensibilizadaIcon.png'
 import dermaProduct from '../assets/pelesensibilizada/derma.png'
@@ -45,8 +45,8 @@ const PeleSensivelDermaPlus = () => {
             </div>
             <div className='flex flex-col'>
               <div>
-                <h2 className='font-robotobold text-2xl text-accent mb-2'>HALIBUT Derma® Plus​</h2>
-                <p className='font-roboto text-xl text-accent'>Ideal para todo o tipo de pele fragilizada, Halibut Derma® Plus Creme repara a sua pele e a pele da sua família.​</p>
+                <h2 className='font-robotobold text-2xl text-accent mb-2'>HALIBUT Derma® Plus </h2>
+                <p className='font-roboto text-xl text-accent'>Ideal para todo o tipo de pele fragilizada, Halibut Derma® Plus Creme repara a sua pele e a pele da sua família. </p>
               </div>
               <div>
                 <div className='flex space-x-2 mt-12 sm:mt-20 mb-10'>
@@ -74,7 +74,7 @@ const PeleSensivelDermaPlus = () => {
             {activeSection === 'indications' && 
             (
               <div>
-                <h2 className='text-primary font-robotobold text-3xl mb-6'>Indicações HALIBUT<br/>Derma® Plus​</h2>
+                <h2 className='text-primary font-robotobold text-3xl mb-6'>Indicações HALIBUT<br/>Derma® Plus </h2>
                 <p className='text-accent text-lg text-justify'>O creme Halibut Derma® Plus foi desenvolvido para reparar a pele de crianças e adultos exposta a agressões devidas a excessiva exposição solar, pele fragilizada e desconforto cutâneo. Hidrata e diminui a vermelhidão, proporcionando uma sensação de conforto. De fácil aplicação, com clorexidina, um antissético que desinfeta e diminui o risco de contaminação da ferida por microrganismos.</p>
               </div>
             )}
@@ -82,8 +82,8 @@ const PeleSensivelDermaPlus = () => {
             {activeSection === 'application' && 
             (
               <div>
-                <h2 className='text-primary font-robotobold text-3xl mb-6'>Como aplicar HALIBUT Derma® Plus​?​​</h2>
-                <p className='text-justify'>Deve ser aplicado sobre a pele a reparar de forma a espalhar suavemente o produto, evitando o​ contacto com os olhos. Não usar na zona coberta pela fralda.</p>
+                <h2 className='text-primary font-robotobold text-3xl mb-6'>Como aplicar HALIBUT Derma® Plus ?  </h2>
+                <p className='text-justify'>Deve ser aplicado sobre a pele a reparar de forma a espalhar suavemente o produto, evitando o  contacto com os olhos. Não usar na zona coberta pela fralda.</p>
               </div>
             )}
           </div>

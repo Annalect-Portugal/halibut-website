@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import Banner from '../components/Banner'
 import Title from '../components/Title'
 import desktopHomeBanner from '../assets/banners/fraldas/desktop.png';
@@ -34,7 +34,7 @@ const FraldasProtetor = () => {
             </div>
             <div className='flex flex-col'>
               <div>
-                <h2 className='font-robotobold text-2xl text-accent mb-2'>HALIBUT Muda Fraldas® Creme Protetor​</h2>
+                <h2 className='font-robotobold text-2xl text-accent mb-2'>HALIBUT Muda Fraldas® Creme Protetor </h2>
                 <p className='font-roboto text-xl text-accent'>A assadura da fralda é muito comum e a sua prevenção é essencial!</p>
               </div>
               <div>
@@ -65,22 +65,22 @@ const FraldasProtetor = () => {
             {activeSection === 'indications' && 
             (
               <div>
-                <h2 className='text-[#9CD061] font-robotobold text-3xl mb-6'>Indicações HALIBUT Muda Fraldas® Creme Protetor​​</h2>
-                <p className='text-accent text-md text-justify'>A prevenção é a melhor forma para evitar o aparecimento de uma assadura da fralda. Após a limpeza, utilize o HALIBUT Muda Fraldas® Creme Protetor (com óleo de girassol e óxido de zinco) e mantenha o rabinho do seu bebé protegido, beneficiando da ação calmante e hidratante do Creme Protetor.​</p>
+                <h2 className='text-[#9CD061] font-robotobold text-3xl mb-6'>Indicações HALIBUT Muda Fraldas® Creme Protetor  </h2>
+                <p className='text-accent text-md text-justify'>A prevenção é a melhor forma para evitar o aparecimento de uma assadura da fralda. Após a limpeza, utilize o HALIBUT Muda Fraldas® Creme Protetor (com óleo de girassol e óxido de zinco) e mantenha o rabinho do seu bebé protegido, beneficiando da ação calmante e hidratante do Creme Protetor. </p>
               </div>
             )}
 
             {activeSection === 'application' && 
             (
               <div>
-                <h2 className='text-[#9CD061] font-robotobold text-3xl mb-6'>Como aplicar HALIBUT Muda Fraldas® Creme Protetor​?​​</h2>
-                <p className='text-accent mb-5 text-md'>A utilização Halibut Muda Fraldas® Creme Protetor pode prevenir as assaduras da fralda. Para isso, deve ser utilizado em todas as mudas da fralda massajando suavemente a pele do bebé. Por fim, não aperte demasiado a fralda, este gesto ajudará a manter a pele do seu bebé saudável!​​​</p>
-                <p className='text-accent mb-5 text-md'>Para a reparação da pele, utilize <Link to={'/pomada-reparadora'} className='underline'>Halibut Muda Fraldas®​ Pomada Reparadora </Link></p>
+                <h2 className='text-[#9CD061] font-robotobold text-3xl mb-6'>Como aplicar HALIBUT Muda Fraldas® Creme Protetor ?  </h2>
+                <p className='text-accent mb-5 text-md'>A utilização Halibut Muda Fraldas® Creme Protetor pode prevenir as assaduras da fralda. Para isso, deve ser utilizado em todas as mudas da fralda massajando suavemente a pele do bebé. Por fim, não aperte demasiado a fralda, este gesto ajudará a manter a pele do seu bebé saudável!   </p>
+                <p className='text-accent mb-5 text-md'>Para a reparação da pele, utilize <Link to={'/pomada-reparadora'} className='underline'>Halibut Muda Fraldas®  Pomada Reparadora </Link></p>
                 <p className='text-accent text-md'>Principais vantagens:</p>
                 <ul className='text-accent text-md'>
-                  <li>• Inclui na sua composição ingredientes de origem natural ​</li>
-                  <li>• Ajuda a eliminar microrganismos e resíduos de creme ou pomada​</li>
-                  <li>• Limpeza, proteção e hidratação num só gesto​</li>
+                  <li>• Inclui na sua composição ingredientes de origem natural  </li>
+                  <li>• Ajuda a eliminar microrganismos e resíduos de creme ou pomada </li>
+                  <li>• Limpeza, proteção e hidratação num só gesto </li>
                   <li>• Sem sabão</li>
                   <li>• Evita o desperdício de toalhitas descartáveis</li>
                 </ul>

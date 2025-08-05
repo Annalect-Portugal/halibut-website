@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Title = ({ title, subtitle, claim }) => {
     return (
         <div className="text-center my-16 font-roboto mx-auto max-w-[80%] text-accent">

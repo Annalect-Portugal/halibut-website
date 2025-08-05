@@ -3,13 +3,13 @@
 const artigo2 = {
     categoria: "Crescimento & Desenvolvimento do Bebé",
     imagem: '/artigos/2.png',
-    titulo: "Breast Crawl: A capacidade inata do bebé ao nascimento para rastejar em direção à mama e começar a mamar",
+    titulo: "Breast Crawl: A capacidade inata do bebé ao nascimento para rastejar em direção �  mama e começar a mamar",
     data: "18 Setembro 2024",
-    preview: "Breast Crawl é a capacidade inata do bebé, presente ao nascimento, para rastejar em direção à mama da mãe e começar a mamar.",
+    preview: "Breast Crawl é a capacidade inata do bebé, presente ao nascimento, para rastejar em direção �  mama da mãe e começar a mamar.",
     conteudo: `
         <div className="sm:container max-w-[90%] mx-auto">
             <p className="text-lg mb-4">
-                Breast Crawl é a capacidade inata do bebé, presente ao nascimento, para rastejar em direção à mama da mãe e começar a mamar.
+                Breast Crawl é a capacidade inata do bebé, presente ao nascimento, para rastejar em direção �  mama da mãe e começar a mamar.
             </p>
 
             <p className="text-lg font-semibold mb-4">

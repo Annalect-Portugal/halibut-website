@@ -14,7 +14,7 @@ const artigo15 = {
 
             <div className="">
                 <ul className="list-disc list-inside space-y-3 pl-5 mb-4">
-                    <li>Escolher um soutien adequado com tecido natural à amamentação, ao formato e ao tamanho da mama, que não deixe marcas e ofereça suporte.</li>
+                    <li>Escolher um soutien adequado com tecido natural �  amamentação, ao formato e ao tamanho da mama, que não deixe marcas e ofereça suporte.</li>
                     <li>A higiene da mama deverá ser realizada no duche diário, não sendo necessário higienizar a mama após cada mamada. Aplicar e deixar secar o próprio leite após a mamada pode ser benéfico.</li>
                     <li>A mama deverá manter-se íntegra, hidratada e confortável entre e durante as mamadas.</li>
                     <li>Observar com regularidade a mama para detetar precocemente qualquer sinal de alerta que mereça ser avaliado.</li>

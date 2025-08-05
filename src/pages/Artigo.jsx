@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import parse from 'html-react-parser';
 import { Helmet } from 'react-helmet-async';
@@ -33,7 +33,7 @@ const Artigo = () => {
                 })
             );
             setArtigos(loadedArticles);
-            setTimeout(() => {
+            window.setTimeout(() => {
                 setLoading(false);
             }, 1200);
         };

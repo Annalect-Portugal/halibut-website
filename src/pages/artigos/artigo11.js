@@ -24,7 +24,7 @@ const artigo11 = {
                     <li>A água do banho deve estar morna, não ultrapassando os 37ºC. Pode confirmar com termómetro ou a face interna do seu pulso.</li>
                     <li>Certifique-se de que a temperatura ambiente é confortável.</li>
                     <li>Utilize apenas produtos adequados e indicados para bebé.</li>
-                    <li>Não se recomenda a utilização de cotonetes para limpar o interior das orelhas do seu bebé. Pode utilizar uma compressa de algodão para lavar à volta das orelhas, mas não deve introduzir nada no interior.</li>
+                    <li>Não se recomenda a utilização de cotonetes para limpar o interior das orelhas do seu bebé. Pode utilizar uma compressa de algodão para lavar �  volta das orelhas, mas não deve introduzir nada no interior.</li>
                     <li>Nunca deixe o seu bebé sozinho no banho.</li>
                     <li>Enquanto dá banho ao bebé, vá conversando com ele para que fique mais relaxado. A interação é fundamental para o desenvolvimento do bebé.</li>
                 </ul>

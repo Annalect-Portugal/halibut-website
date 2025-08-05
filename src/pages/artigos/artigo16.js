@@ -9,7 +9,7 @@ const artigo16 = {
     conteudo: `
         <div className="sm:container max-w-[90%] mx-auto">
             <p className="text-lg mb-4">
-                De acordo com o Programa Nacional de Vacinação, é recomendado que todas as grávidas recebam uma dose da vacina contra a tosse convulsa (Tdpa), idealmente entre as 20 e as 32 semanas de gestação, podendo ir até às 36 semanas. Após esta idade gestacional, embora a vacina possa ser administrada, a proteção do recém-nascido é indireta e acontece por prevenção da doença na mãe.
+                De acordo com o Programa Nacional de Vacinação, é recomendado que todas as grávidas recebam uma dose da vacina contra a tosse convulsa (Tdpa), idealmente entre as 20 e as 32 semanas de gestação, podendo ir até � s 36 semanas. Após esta idade gestacional, embora a vacina possa ser administrada, a proteção do recém-nascido é indireta e acontece por prevenção da doença na mãe.
             </p>
 
             <p className="text-lg mb-4">

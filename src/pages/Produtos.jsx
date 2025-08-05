@@ -1,4 +1,3 @@
-import React from 'react'
 import Title from '../components/Title'
 import iconFeridas from '../assets/home-icons/feridas.png'
 import iconIrritacoes from '../assets/home-icons/irritacoes.png'

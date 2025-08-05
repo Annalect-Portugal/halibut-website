@@ -1,4 +1,3 @@
-import React from 'react'
 import { Helmet } from 'react-helmet-async'
 
 const Cookies = () => {
@@ -36,7 +35,7 @@ const Cookies = () => {
 
         <p className="mb-4">Esta tecnologia serve para finalidades diversas, entre elas, melhorar a sua experiência de navegação através da determinação da utilidade, interesse e o número de utilizações dos nossos websites. Tal permite ao utilizador uma navegação mais rápida e eficiente, eliminando a necessidade de introduzir repetidamente as mesmas informações.</p>
 
-        <p className="mb-4">Esta tecnologia permite ainda distinguir os utilizadores aquando do uso dos nossos websites e proporcionar conteúdos, ofertas, campanhas, promoções ou informação, direcionados e personalizados face às preferências manifestadas.</p>
+        <p className="mb-4">Esta tecnologia permite ainda distinguir os utilizadores aquando do uso dos nossos websites e proporcionar conteúdos, ofertas, campanhas, promoções ou informação, direcionados e personalizados face � s preferências manifestadas.</p>
 
         <p className="mb-4">A maioria dos programas de navegação está definida para aceitar cookies, embora seja possível configurar o navegador para recusar todos os cookies, ou para indicar quando um cookie está a ser enviado.</p>
 
@@ -52,7 +51,7 @@ const Cookies = () => {
 
         <p className="mb-4">Alguns cookies são definidos por websites pertencentes a terceiros e, por conseguinte, são denominados “cookies de terceiros”.</p>
 
-        <p className="mb-4">Não controlamos como as redes sociais recolhem e usam as suas informações pessoais e o seu uso está sujeito à política de privacidade da rede social em causa.</p>
+        <p className="mb-4">Não controlamos como as redes sociais recolhem e usam as suas informações pessoais e o seu uso está sujeito �  política de privacidade da rede social em causa.</p>
 
         <p className="mb-4">Utilizamos a função de Remarketing da Google Inc. (“Google”) nos nossos sites de Produtos. Este recurso tem como finalidade posicionar estrategicamente anúncios perante o público-alvo enquanto navegam no Google.</p>
 

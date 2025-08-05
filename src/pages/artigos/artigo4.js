@@ -24,7 +24,7 @@ const artigo4 = {
                     <li>Ler atentamente as instruções da cadeira antes de a montar pela primeira vez. Só uma cadeira bem instalada e utilizada corretamente em todas as viagens, protege o seu bebé.</li>
                     <li>Retirar as crianças do automóvel sempre pelo lado do passeio.</li>
                     <li>Transportar a criança voltada contra a marcha idealmente até aos 4 anos, mas pelo menos até aos 18 meses, conforme é obrigatório por lei.</li>
-                    <li>Mudar de cadeira assim que deixar de estar adequada à idade, altura e peso do bebé.</li>
+                    <li>Mudar de cadeira assim que deixar de estar adequada �  idade, altura e peso do bebé.</li>
                 </ul>
                 <br>
                 <p className="italic text-lg my-4">

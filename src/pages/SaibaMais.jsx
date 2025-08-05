@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import { data as postDataLoaders, getVisibleArticles } from './artigos'
 import { ChevronRight } from 'lucide-react'
 import Banner from '../components/Banner';
@@ -22,7 +22,7 @@ const SaibaMais = () => {
       const startIndex = (currentPage - 1) * artigosPorPagina;
       const visibleArticles = await getVisibleArticles(startIndex, artigosPorPagina);
       setCurrentArticles(visibleArticles);
-      setTimeout(() => {
+      window.setTimeout(() => {
         setLoading(false);
       }, 500);
     };

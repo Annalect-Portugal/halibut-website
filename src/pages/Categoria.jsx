@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { ChevronRight } from 'lucide-react';
@@ -84,7 +84,7 @@ const Categoria = () => {
       const visibleArticles = filteredArticles.slice(startIndex, startIndex + artigosPorPagina);
       setCurrentArticles(visibleArticles);
       
-      setTimeout(() => {
+      window.setTimeout(() => {
         setLoading(false);
       }, 1200);
     };

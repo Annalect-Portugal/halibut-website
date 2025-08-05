@@ -5,7 +5,7 @@ const artigo20 = {
     imagem: '/artigos/20.png',
     titulo: "Como proteger a pele dos bebés durante o verão?",
     data: "18 Setembro 2024",
-    preview: "Durante o verão, os cuidados com a pele do bebé devem ser redobrados devido à maior exposição ao sol. A APEO recomenda dicas essenciais para proteger o seu bebé.",
+    preview: "Durante o verão, os cuidados com a pele do bebé devem ser redobrados devido �  maior exposição ao sol. A APEO recomenda dicas essenciais para proteger o seu bebé.",
     conteudo: `
         <div className="sm:container max-w-[90%] mx-auto">
             <p className="text-lg mb-4">
@@ -15,8 +15,8 @@ const artigo20 = {
             <div className="">
                 <ul className="list-disc list-inside space-y-3 pl-5 mb-4">
                     <li>Evite exposição nos horários de maior incidência solar. Consulte diariamente a previsão de UVA/UVB.</li>
-                    <li>Escolha roupas adequadas, frescas, com tecidos naturais, adequadas à estação e que protejam a pele do bebé dos raios solares.</li>
-                    <li>Mantenha o bebé num local fresco e à sombra, especialmente se for um bebé com menos de 6 meses.</li>
+                    <li>Escolha roupas adequadas, frescas, com tecidos naturais, adequadas �  estação e que protejam a pele do bebé dos raios solares.</li>
+                    <li>Mantenha o bebé num local fresco e �  sombra, especialmente se for um bebé com menos de 6 meses.</li>
                     <li>Não é recomendado protetor solar num bebé com menos de 6 meses. Caso não consiga proteger a pele, aplique o protetor nas zonas expostas em pequena quantidade.</li>
                     <li>Privilegie um FPS mínimo de 30 e reaplique a cada 2 horas.</li>
                     <li>Reforce a hidratação no seu bebé. Se o bebé mamar, ofereça mais mama, pois o leite materno tem a hidratação que o seu bebé precisa.</li>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import Banner from '../components/Banner'
 import Title from '../components/Title'
 import desktopHomeBanner from '../assets/banners/fraldas/desktop.png';
@@ -36,7 +36,7 @@ const FraldasReparadora = () => {
             </div>
             <div className='flex flex-col'>
               <div>
-                <h2 className='font-robotobold text-2xl text-accent mb-2'>​HALIBUT Muda Fraldas® Pomada Reparadora</h2>
+                <h2 className='font-robotobold text-2xl text-accent mb-2'> HALIBUT Muda Fraldas® Pomada Reparadora</h2>
                 <p className='font-roboto text-xl text-accent'>Reparação da pele na assadura da fralda, com miconazol para controlar a proliferação de microrganismos.</p>
               </div>
               <div>
@@ -66,22 +66,22 @@ const FraldasReparadora = () => {
             {activeSection === 'indications' && 
             (
               <div>
-                <h2 className='text-[#9CD061] font-robotobold text-3xl mb-6'>Indicações HALIBUT Muda Fraldas® Pomada Reparadora​​</h2>
-                <p className='text-accent text-md text-justify'>Pomada para a reparação da pele quando existe irritação, assadura da fralda e/ou vermelhidão no​ rabinho do bebé. Com miconazol que ajuda a controlar a proliferação de microrganismos na pele e óxido de zinco com uma ação regeneradora dos tecidos e ainda de uma grande ação protetora e​ calmante.​</p>
+                <h2 className='text-[#9CD061] font-robotobold text-3xl mb-6'>Indicações HALIBUT Muda Fraldas® Pomada Reparadora  </h2>
+                <p className='text-accent text-md text-justify'>Pomada para a reparação da pele quando existe irritação, assadura da fralda e/ou vermelhidão no  rabinho do bebé. Com miconazol que ajuda a controlar a proliferação de microrganismos na pele e óxido de zinco com uma ação regeneradora dos tecidos e ainda de uma grande ação protetora e  calmante. </p>
               </div>
             )}
 
             {activeSection === 'application' && 
             (
               <div>
-                <h2 className='text-[#9CD061] font-robotobold text-3xl mb-6'>Como aplicar HALIBUT Muda Fraldas® Pomada Reparadora​?​​</h2>
-                <p className='text-accent mb-5 text-md'>Aplicar em cada muda da fralda, durante 7 dias, em camada fina e homogénea, na pele limpa e seca. Se ​após estes dias a zona da fralda continuar alterada, consulte o médico. Antes da utilização de <Link to={'/linimento'} className='underline'>HALIBUT​ Muda Fraldas® Pomada Reparadora</Link> recomendamos que limpe suavemente a pele do bebé com​ HALIBUT​ Muda Fraldas® Linimento, para um cuidado completo na prevenção da assadura da fralda.​​​​</p>
+                <h2 className='text-[#9CD061] font-robotobold text-3xl mb-6'>Como aplicar HALIBUT Muda Fraldas® Pomada Reparadora ?  </h2>
+                <p className='text-accent mb-5 text-md'>Aplicar em cada muda da fralda, durante 7 dias, em camada fina e homogénea, na pele limpa e seca. Se  após estes dias a zona da fralda continuar alterada, consulte o médico. Antes da utilização de <Link to={'/linimento'} className='underline'>HALIBUT  Muda Fraldas® Pomada Reparadora</Link> recomendamos que limpe suavemente a pele do bebé com  HALIBUT  Muda Fraldas® Linimento, para um cuidado completo na prevenção da assadura da fralda.    </p>
                 <p className='text-accent text-md'>Principais vantagens:</p>
                 <ul className='text-accent text-md'>
-                  <li>• Textura cremosa e fácil de espalhar​​</li>
-                  <li>• Cheiro agradável​​</li>
-                  <li>• Controla a proliferação de microorganismos​</li>
-                  <li>• Não deixa resíduos brancos​</li>
+                  <li>• Textura cremosa e fácil de espalhar  </li>
+                  <li>• Cheiro agradável  </li>
+                  <li>• Controla a proliferação de microorganismos </li>
+                  <li>• Não deixa resíduos brancos </li>
                   <li>• Permite ver a evolução da vermelhidão no rabinho do bebé</li>
                 </ul>
               </div>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import peleIcon from '../assets/pelesensibilizada/sensibilizadaIcon.png'
 import dermaProduct from '../assets/pelesensibilizada/derma.png'
 import { Link } from 'react-router-dom'
@@ -77,16 +77,16 @@ const PeleSensibilizada = () => {
               {activeSection === 'indications' && 
               (
                 <div>
-                  <h2 className='text-primary font-robotobold text-2xl mb-6'>Indicações​​</h2>
-                  <p className='text-accent text-sm mb-3 font-roboto'>O creme Halibut Derma® Plus foi desenvolvido para reparar a pele de crianças e adultos exposta a agressões devidas a excessiva exposição solar, pele fragilizada e desconforto cutâneo. Hidrata e diminui a vermelhidão, proporcionando uma sensação de conforto. De fácil aplicação, com clorexidina, um antissético que desinfeta e diminui o risco de contaminação da ferida por microrganismos.​</p>
+                  <h2 className='text-primary font-robotobold text-2xl mb-6'>Indicações  </h2>
+                  <p className='text-accent text-sm mb-3 font-roboto'>O creme Halibut Derma® Plus foi desenvolvido para reparar a pele de crianças e adultos exposta a agressões devidas a excessiva exposição solar, pele fragilizada e desconforto cutâneo. Hidrata e diminui a vermelhidão, proporcionando uma sensação de conforto. De fácil aplicação, com clorexidina, um antissético que desinfeta e diminui o risco de contaminação da ferida por microrganismos. </p>
                 </div>
               )}
 
               {activeSection === 'application' && 
               (
                 <div className='text-accent text-sm font-roboto'>
-                  <h2 className='text-primary font-robotobold text-2xl mb-6'>Como aplicar​?​​</h2>
-                  <p>Deve ser aplicado sobre a pele a reparar de forma a espalhar suavemente o produto, evitando o​ contacto com os olhos. Não usar na zona coberta pela fralda.</p>
+                  <h2 className='text-primary font-robotobold text-2xl mb-6'>Como aplicar ?  </h2>
+                  <p>Deve ser aplicado sobre a pele a reparar de forma a espalhar suavemente o produto, evitando o  contacto com os olhos. Não usar na zona coberta pela fralda.</p>
                 </div>
               )}
             </div>

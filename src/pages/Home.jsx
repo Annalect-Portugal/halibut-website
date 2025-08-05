@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import {useEffect} from 'react'
 import HomeBanner from '../components/HomeBanner'
 import Title from '../components/Title'
 import iconFeridas from '../assets/home-icons/feridas.png'
