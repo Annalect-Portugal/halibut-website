@@ -5,7 +5,7 @@ const artigo12 = {
     imagem: '/artigos/12.png',
     titulo: "Massaje regularmente o bebé",
     data: "18 Setembro 2024",
-    preview: "A massagem regular ao bebé traz muitos benefícios, desde o relaxamento �  melhoria do desenvolvimento psicomotor. A APEO recomenda a prática.",
+    preview: "A massagem regular ao bebé traz muitos benefícios, desde o relaxamento à  melhoria do desenvolvimento psicomotor. A APEO recomenda a prática.",
     conteudo: `
         <div className="sm:container max-w-[90%] mx-auto">
             <p className="text-lg mb-4">
@@ -15,7 +15,7 @@ const artigo12 = {
             <div className="">
                 <ul className="list-decimal list-inside space-y-3 pl-5 mb-4">
                     <li>
-                        A experiência de massagem ao bebé vem acompanhada de várias aprendizagens: a arte de ouvir, pedir permissão, comunicar, interpretar e responder � s sugestões dele, proporcionando-lhe segurança e gerando emoções positivas.
+                        A experiência de massagem ao bebé vem acompanhada de várias aprendizagens: a arte de ouvir, pedir permissão, comunicar, interpretar e responder à s sugestões dele, proporcionando-lhe segurança e gerando emoções positivas.
                     </li>
                     <li>
                         A massagem é uma experiência agradável que promove o relaxamento, não apenas dos bebé, mas também de quem o massaja. Ao estimular a libertação de ocitocina, a hormona do amor, está a fortalecer a conexão emocional do bebé com quem o massaja e vice-versa.

@@ -112,7 +112,7 @@ const Radioterapia = () => {
             <div className='col-span-3'>
               <h3 className="text-lg font-robotobold mb-2 text-primary">Gestão da dor</h3>
               <ul className="list-disc list-inside mb-4 space-y-2">
-                <li>Cobrir as � reas abertas com <span className='text-secondary'>pensos de baixa aderência</span> para proteger as terminações nervosas;</li>
+                <li>Cobrir as à reas abertas com <span className='text-secondary'>pensos de baixa aderência</span> para proteger as terminações nervosas;</li>
                 <li><span className='text-secondary'>Gerir a terapêutica analgésica</span> prescrita;</li>
               </ul>
             </div>

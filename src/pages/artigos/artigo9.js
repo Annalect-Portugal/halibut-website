@@ -15,7 +15,7 @@ const artigo9 = {
                 No útero, o vérnix tem a função de proteger o feto da maceração do líquido amniótico, de infeções bacterianas e ajuda na função barreira da pele.
             </p>
             <p className="text-lg mb-4">
-                Após o nascimento, o vérnix continua a proteger a pele devido �  sua ação protetora de hidratação, termorregulação e cicatrização.
+                Após o nascimento, o vérnix continua a proteger a pele devido à  sua ação protetora de hidratação, termorregulação e cicatrização.
             </p>
 
             <p className="text-lg font-semibold mb-4">

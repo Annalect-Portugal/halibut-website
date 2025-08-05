@@ -63,13 +63,13 @@ const Termos = () => {
 
       <p className="mb-4">As informações disponibilizadas no Site foram objeto de uma análise minuciosa. No entanto, tais informações terão um caráter meramente informativo, podendo conter lapsos ou imprecisões, mormente, em virtude dos constantes avanços e desenvolvimentos médicos e científicos.</p>
 
-      <p className="mb-4">Dessa forma, a MCH não se responsabiliza por garantir que qualquer recomendação ou informação disponibilizada neste Site ou obtida através da utilização do mesmo, esteja atualizada, correta, atual, completa ou precisa, isenta de erros, fiável ou que responda � s necessidades, fins e expectativas dos Utilizadores.</p>
+      <p className="mb-4">Dessa forma, a MCH não se responsabiliza por garantir que qualquer recomendação ou informação disponibilizada neste Site ou obtida através da utilização do mesmo, esteja atualizada, correta, atual, completa ou precisa, isenta de erros, fiável ou que responda à s necessidades, fins e expectativas dos Utilizadores.</p>
 
       <p className="mb-4">A MCH não promove nem é responsável pelo conteúdo de Sites operados por terceiros que tenham links para este Site ou que sejam acessíveis a partir dele, não tendo qualquer obrigação de monitorizar ou controlar tais conteúdos.</p>
 
       <h2 className="text-2xl font-bold mb-4">Informação de cariz médico/ Aconselhamento Médico</h2>
 
-      <p className="mb-4">O uso de informação obtida ou descarregada a partir do nosso Site relativa a qualquer um dos MNSRM e dos produtos cosméticos comercializados pela MCH é feita por conta e risco do Utilizador. A informação médica neste Site não é nem pode ser entendida como substituto de aconselhamento ou diagnóstico médico informado, pelo que os doentes e/ou os profissionais de saúde devem recorrer � s entidades prestadoras de cuidados de saúde. Os Utilizadores podem e devem consultar as respectivas autoridades reguladoras para esclarecerem e obterem as informações que consideram necessárias.</p>
+      <p className="mb-4">O uso de informação obtida ou descarregada a partir do nosso Site relativa a qualquer um dos MNSRM e dos produtos cosméticos comercializados pela MCH é feita por conta e risco do Utilizador. A informação médica neste Site não é nem pode ser entendida como substituto de aconselhamento ou diagnóstico médico informado, pelo que os doentes e/ou os profissionais de saúde devem recorrer à s entidades prestadoras de cuidados de saúde. Os Utilizadores podem e devem consultar as respectivas autoridades reguladoras para esclarecerem e obterem as informações que consideram necessárias.</p>
 
       <p className="mb-4"><strong>ANTES DE TOMAR QUALQUER AÇÃO OU DECISÃO RELATIVAMENTE A QUALQUER CONTEÚDO QUE SEJA OBJECTO DE INFORMAÇÃO NESTE SITE, DEVE CONSULTAR UM PROFISSIONAL DE SAÚDE DEVIDAMENTE QUALIFICADO.</strong></p>
 
@@ -85,7 +85,7 @@ const Termos = () => {
 
       <h2 className="text-2xl font-bold mb-4">Ligações a este site</h2>
 
-      <p className="mb-4">Encontra-se expressamente vedada a possibilidade de criar links �  home page do site HALIBUT®️ sem o prévio consentimento por escrito da MCH.</p>
+      <p className="mb-4">Encontra-se expressamente vedada a possibilidade de criar links à  home page do site HALIBUT®️ sem o prévio consentimento por escrito da MCH.</p>
 
       <h2 className="text-2xl font-bold mb-4">Alterações a este site</h2>
 
@@ -103,7 +103,7 @@ const Termos = () => {
 
       <h2 className="text-2xl font-bold mb-4">Lei aplicável</h2>
 
-      <p className="mb-4">Os presentes Termos de Utilização encontram-se sujeitos �  lei portuguesa.</p>
+      <p className="mb-4">Os presentes Termos de Utilização encontram-se sujeitos à  lei portuguesa.</p>
 
       <p className="text-sm text-gray-600">DATA DA ÚLTIMA ATUALIZAÇÃO: 29/05/2020</p>
   </div>

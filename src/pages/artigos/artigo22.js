@@ -33,7 +33,7 @@ const artigo22 = {
                 </p>
 
                 <p className="text-lg mb-4">
-                    Assim, o ideal é manter o bebé confortável com uma temperatura ambiente amena. Após o banho, seque a pele do bebé rapidamente. Amamentar é um fator protetor, e o contato pele a pele também ajuda. Quando o bebé não está em contacto com a sua pele, vista-o com roupas de algodão adequadas �  estação do ano e ao ambiente. 
+                    Assim, o ideal é manter o bebé confortável com uma temperatura ambiente amena. Após o banho, seque a pele do bebé rapidamente. Amamentar é um fator protetor, e o contato pele a pele também ajuda. Quando o bebé não está em contacto com a sua pele, vista-o com roupas de algodão adequadas à  estação do ano e ao ambiente. 
                 </p>
 
                 <p className="text-lg mb-4">

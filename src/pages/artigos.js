@@ -1,6 +1,6 @@
 export const data = [
     () => import("./artigos/artigo1.js"), // Promova a segurança do seu bebé enquanto ele dorme
-    () => import("./artigos/artigo2.js"), // Breast Crawl: A capacidade inata do bebé ao nascimento para rastejar em direção �  mama e começar a mamar
+    () => import("./artigos/artigo2.js"), // Breast Crawl: A capacidade inata do bebé ao nascimento para rastejar em direção à  mama e começar a mamar
     () => import("./artigos/artigo3.js"), // Babywearing – Uma forma segura de transportar o bebé ao colo
     () => import("./artigos/artigo4.js"), // Garanta a segurança do bebé durante o transporte automóvel
     () => import("./artigos/artigo5.js"), // O sono do bebé é fundamental para a sua saúde
@@ -24,7 +24,7 @@ export const data = [
     () => import("./artigos/artigo23.js"), // Como prevenir uma assadura no rabinho do meu bebé?
     () => import("./artigos/artigo24.js"), // Desenvolvimento Psicomotor do Recém-Nascido
     () => import("./artigos/artigo25.js"), // O que fazer em caso de engasgamento?
-    () => import("./artigos/artigo26.js"), // Adaptação dos animais domésticos �  chegada de um bebé
+    () => import("./artigos/artigo26.js"), // Adaptação dos animais domésticos à  chegada de um bebé
     () => import("./artigos/artigo27.js"), // O cheiro da mãe ajuda o bebé a manter-se calmo e a conectar-se com outras pessoas
     () => import("./artigos/artigo28.js"), // Estimular o seu bebé antes de nascer, criando memórias auditivas
     () => import("./artigos/artigo29.js"), // Porque se oferece vitamina K a todos os recém-nascidos, nas primeiras horas após o parto?

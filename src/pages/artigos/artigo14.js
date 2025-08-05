@@ -18,7 +18,7 @@ const artigo14 = {
                     <li>Utilizar produtos para bebé, pois deixam menos resíduos, conduzindo a uma menor reação na pele, e evitar a utilização de amaciador.</li>
                     <li>Remover as etiquetas é um passo importante, no entanto, salientamos o facto de considerar previamente as indicações presentes nas mesmas.</li>
                     <li>Privilegiar a roupa com tecidos naturais em detrimento dos sintéticos.</li>
-                    <li>As roupas de apertar �  frente e/ou com abertura no meio das pernas são usualmente mais práticas para vestir.</li>
+                    <li>As roupas de apertar à  frente e/ou com abertura no meio das pernas são usualmente mais práticas para vestir.</li>
                 </ul>
                 <br>
                 <p className="italic text-lg my-4">

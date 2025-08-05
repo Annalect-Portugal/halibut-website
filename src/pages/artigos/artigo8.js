@@ -29,7 +29,7 @@ const artigo8 = {
                     <li>Utilize água morna na limpeza e produtos dermatologicamente testados.</li>
                     <li>No final, prima por deixar a pele do rabinho do bebé bem seca sem friccionar (mesmo após a limpeza com toalhitas, seque a pele no final com compressas macias).</li>
                     <li>No caso de irritação da pele, aplicar creme protetor/reparador.</li>
-                    <li>E por último, não aperte demasiado a fralda, permitindo �  pele respirar.</li>
+                    <li>E por último, não aperte demasiado a fralda, permitindo à  pele respirar.</li>
                 </ul>
                 <br>
                 <p className="italic text-lg my-4">

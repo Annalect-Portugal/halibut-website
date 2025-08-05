@@ -8,7 +8,7 @@ const Privacidade = () => {
         </Helmet>
       <h1 class="text-3xl font-bold mb-6">Política de Privacidade</h1>
 
-      <p class="mb-4">Cientes da preocupação respeitante �  forma como tratamos os seus Dados Pessoais, na MEDINFAR CONSUMER HEALTH reconhecemos a importância de proteger a sua privacidade.</p>
+      <p class="mb-4">Cientes da preocupação respeitante à  forma como tratamos os seus Dados Pessoais, na MEDINFAR CONSUMER HEALTH reconhecemos a importância de proteger a sua privacidade.</p>
 
       <p class="mb-4">Pretendemos que os nossos Clientes conheçam as regras gerais de privacidade e os termos de tratamento dos dados que recolhemos, no estrito respeito e cumprimento da legislação aplicável neste âmbito, nomeadamente do Regulamento (UE) 2016/679 do Parlamento Europeu e do Conselho, de 27 de abril de 2016 (“Regulamento Geral sobre a Proteção de Dados” ou “RGPD”), da Lei n.º 58/2019, de 8 de Agosto, a lei que assegura a execução, na ordem jurídica nacional, do RGPD., e das orientações emitidas pela Comissão Nacional de Proteção de Dados (“CNPD”).</p>
 
@@ -82,7 +82,7 @@ const Privacidade = () => {
 
       <ul class="list-disc list-inside mb-4">
           <li>Mediante o seu consentimento específico;</li>
-          <li>Nas diligências prévias �  formação dos contratos ou �  declaração da vontade negocial, e na execução de obrigações contratuais;</li>
+          <li>Nas diligências prévias à  formação dos contratos ou à  declaração da vontade negocial, e na execução de obrigações contratuais;</li>
           <li>Para cumprir obrigações regulatórias e legais;</li>
           <li>Quando o tratamento for necessário para efeito de interesses legítimos da MEDINFAR CONSUMER HEALTH.</li>
       </ul>
@@ -108,7 +108,7 @@ const Privacidade = () => {
 
       <p class="mb-4">Quando necessário, ou pelas razões expostas nesta política, os Dados Pessoais também podem ser partilhados com autoridades reguladoras, tribunais e entidades oficiais. Envidaremos esforços razoáveis para o notificar antes da referida partilha, a não ser que sejamos legalmente impedidos de o fazer.</p>
 
-      <p class="mb-4">Também poderemos partilhar os seus Dados Pessoais com sociedades do Grupo MEDINFAR ou outras entidades, asseguramo-nos de que só o fazemos com entidades que protejam os seus Dados Pessoais e que cumpram com as normas de privacidade de forma similar ou igual �  da MEDINFAR CONSUMER HEALTH. A comunicação dos Dados Pessoais a esta entidade será igualmente efectuada para optimizar os serviços do Grupo MEDINFAR e para interesses legítimos das entidades que o compõem.</p>
+      <p class="mb-4">Também poderemos partilhar os seus Dados Pessoais com sociedades do Grupo MEDINFAR ou outras entidades, asseguramo-nos de que só o fazemos com entidades que protejam os seus Dados Pessoais e que cumpram com as normas de privacidade de forma similar ou igual à  da MEDINFAR CONSUMER HEALTH. A comunicação dos Dados Pessoais a esta entidade será igualmente efectuada para optimizar os serviços do Grupo MEDINFAR e para interesses legítimos das entidades que o compõem.</p>
 
       <p class="mb-4">Além disso, e conforme indicado previamente, podemos comunicar os seus Dados Pessoais a sites de terceiros ou redes sociais, para facilitar a utilização das nossas plataformas, assim como para facultar informação da MEDINFAR CONSUMER HEALTH que possa ser do seu interesse. Em momento algum, integraremos, na nossa base de dados, informações obtidas através destes terceiros sem o consentimento do Titular Dos Dados.</p>
 
@@ -141,21 +141,21 @@ const Privacidade = () => {
 
       <p class="mb-4">Nos termos da legislação aplicável, tem os seguintes direitos no que respeita ao tratamento dos seus Dados Pessoais:</p>
 
-      <h3 class="text-xl font-bold mb-4">I. Direito de acesso aos Dados Pessoais e �  sua rectificação</h3>
+      <h3 class="text-xl font-bold mb-4">I. Direito de acesso aos Dados Pessoais e à  sua rectificação</h3>
 
-      <p class="mb-4">O titular dos Dados Pessoais tem direito a obter confirmação de que os Dados Pessoais são ou não objeto de tratamento e, se for o caso, direito de aceder aos seus Dados Pessoais, bem como � s informações relativas � s finalidades do tratamento, categorias de Dados Pessoais em questão, destinatários dos Dados Pessoais, prazo previsto de conservação, tendo ainda, o direito, a qualquer momento, de corrigir ou atualizar os mesmos.</p>
+      <p class="mb-4">O titular dos Dados Pessoais tem direito a obter confirmação de que os Dados Pessoais são ou não objeto de tratamento e, se for o caso, direito de aceder aos seus Dados Pessoais, bem como à s informações relativas à s finalidades do tratamento, categorias de Dados Pessoais em questão, destinatários dos Dados Pessoais, prazo previsto de conservação, tendo ainda, o direito, a qualquer momento, de corrigir ou atualizar os mesmos.</p>
 
-      <h3 class="text-xl font-bold mb-4">II. Direito �  portabilidade dos seus Dados Pessoais</h3>
+      <h3 class="text-xl font-bold mb-4">II. Direito à  portabilidade dos seus Dados Pessoais</h3>
 
-      <p class="mb-4">O Titular dos Dados tem direito �  portabilidade dos seus Dados Pessoais. Isto significa que os Dados Pessoais podem ser transferidos, copiados ou transmitidos electronicamente. Não obstante, este direito apenas se verifica quando o tratamento dos Dados Pessoais se basear no consentimento prestado; ou o tratamento ocorra para a execução de um contrato e ocorra por meios automatizados.</p>
+      <p class="mb-4">O Titular dos Dados tem direito à  portabilidade dos seus Dados Pessoais. Isto significa que os Dados Pessoais podem ser transferidos, copiados ou transmitidos electronicamente. Não obstante, este direito apenas se verifica quando o tratamento dos Dados Pessoais se basear no consentimento prestado; ou o tratamento ocorra para a execução de um contrato e ocorra por meios automatizados.</p>
 
       <h3 class="text-xl font-bold mb-4">III. Direito ao apagamento dos seus Dados Pessoais (“direito a ser esquecido”)</h3>
 
       <p class="mb-4">O Titular dos Dados tem direito a solicitar que os seus Dados Pessoais sejam eliminados, sem demora injustificada, quando, designadamente, os Dados Pessoais já não se mostrem necessários tendo em conta as finalidades que motivaram a sua recolha ou tratamento; quando retire o consentimento previamente prestado para tratamento, e inexista qualquer fundamento jurídico de tratamento dos mesmos; quando se opuser ao tratamento de Dados Pessoais para fins de marketing directo e nos demais casos previstos no Regulamento Geral de Proteção de Dados.</p>
 
-      <p class="mb-4">Sempre que os Dados Pessoais não se mostrem necessários para qualquer finalidade ou inexista disposição legal que obrigue �  sua conservação, faremos os possíveis para os eliminar ou anonimizar permanentemente.</p>
+      <p class="mb-4">Sempre que os Dados Pessoais não se mostrem necessários para qualquer finalidade ou inexista disposição legal que obrigue à  sua conservação, faremos os possíveis para os eliminar ou anonimizar permanentemente.</p>
 
-      <h3 class="text-xl font-bold mb-4">IV. Direito �  limitação do tratamento</h3>
+      <h3 class="text-xl font-bold mb-4">IV. Direito à  limitação do tratamento</h3>
 
       <p class="mb-4">O Titular dos Dados tem direito a limitar o tratamento dos seus Dados Pessoais se, designadamente, considerar que os Dados Pessoais recolhidos não são exactos, que os Dados Pessoais não estão a ser tratados de acordo com as disposições legais aplicáveis, podendo, nesse caso e em vez de eliminar os Dados Pessoais, optar por solicitar a limitação do tratamento, no âmbito de ações judiciais, e nos demais casos previstos na legislação aplicável.</p>
 

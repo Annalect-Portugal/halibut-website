@@ -24,7 +24,7 @@ const artigo3 = {
 
             <div className="">
                 <ul className="list-disc list-inside space-y-3 pl-5 mb-4">
-                    <li>Manter a cabeça do bebé �  distância de um beijinho.</li>
+                    <li>Manter a cabeça do bebé à  distância de um beijinho.</li>
                     <li>Respeitar a curvatura natural da coluna do bebé - coluna em “C” - evitando sistemas rígidos que não permitam esta curvatura.</li>
                     <li>Manter as pernas do bebé em posição de “sapinho” / formato de “M”, garantindo ao mesmo tempo o apoio de mais de metade da coxa.</li>
                     <li>Manter o queixo suficientemente afastado do teu peito, garantindo que as vias aéreas do bebé se mantêm desobstruídas.</li>

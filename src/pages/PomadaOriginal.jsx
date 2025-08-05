@@ -69,7 +69,7 @@ const PomadaOriginal = () => {
             (
               <div>
                 <h2 className='text-primary font-robotobold text-3xl mb-6'>Indicações HALIBUT®<br/>Pomada Original  </h2>
-                <p className='text-accent text-md text-justify'>Cada grama de pomada contém 150 mg/g de óxido de zinco.  Halibut pomada, pela natureza da sua formulação é um medicamento dotado de uma notável ação regeneradora dos tecidos e ainda de uma grande ação protetora, calmante, adstringente e antisséptica devido �  presença do óxido de zinco.  Pela sua ação calmante, cicatrizante e regeneradora dos tecidos Halibut pomada está indicada na dermatite das fraldas (assaduras dos bebés), queimaduras do primeiro grau e na cicatrização de feridas superficiais.  </p>
+                <p className='text-accent text-md text-justify'>Cada grama de pomada contém 150 mg/g de óxido de zinco.  Halibut pomada, pela natureza da sua formulação é um medicamento dotado de uma notável ação regeneradora dos tecidos e ainda de uma grande ação protetora, calmante, adstringente e antisséptica devido à  presença do óxido de zinco.  Pela sua ação calmante, cicatrizante e regeneradora dos tecidos Halibut pomada está indicada na dermatite das fraldas (assaduras dos bebés), queimaduras do primeiro grau e na cicatrização de feridas superficiais.  </p>
               </div>
             )}
 

@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="bg-primary text-white p-6 mt-8 font-roboto text-xs">
       <div className="container mx-auto text-left space-y-5 my-5">
         <p className='text-justify'>
-            <span className='font-robotobold'>HALIBUT® pomada</span> é um medicamento não sujeito a receita médica regenerador dos tecidos, protetor, calmante, adstringente e antissético devido �  presença do óxido de zinco como 
+            <span className='font-robotobold'>HALIBUT® pomada</span> é um medicamento não sujeito a receita médica regenerador dos tecidos, protetor, calmante, adstringente e antissético devido à  presença do óxido de zinco como 
             substância ativa. Indicações: dermatite das fraldas (assaduras dos bebés), queimaduras do 1º grau e na cicatrização de feridas superficiais. Contraindicações: se tem alergia ao óxido de 
             zinco ou a qualquer outro componente do medicamento. Leia atentamente o Folheto Informativo e, em caso de dúvida ou de persistência dos sintomas, consulte o seu médico ou 
             farmacêutico. (20/04/2018) Medinfar Consumer Health - Produtos Farmacêuticos, Lda. Rua Henrique Paiva Couceiro, Nº 27, Venda Nova, 2700-451 Amadora, NIF: 504 939 980.
