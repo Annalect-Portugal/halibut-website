@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import desktopHomeBanner from '../assets/banners/queimaduras/desktop_man.png';
 import mobileHomeBanner from '../assets/banners/queimaduras/mobile_man.png';
 import Banner from '../components/Banner';
@@ -7,7 +7,7 @@ import g60 from '../assets/60g.png'
 import queimaduras from '../assets/queimaduras/queimaduras.png'
 import { Link } from 'react-router-dom';
 import { MoveRight } from 'lucide-react';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 
 const Queimaduras = () => {
 
@@ -69,16 +69,16 @@ const Queimaduras = () => {
               {activeSection === 'indications' && 
               (
                 <div>
-                  <h2 className='text-primary font-robotobold text-2xl mb-6'>Indicações​​</h2>
-                  <p className='text-accent text-sm mb-3 font-roboto'>Formulado para o tratamento de queimaduras de 1º e 2º graus, eritemas solares, vermelhidão da pele associada a radioterapia e terapia a laser e ainda feridas cutâneas superficiais não infetadas. ​</p>
-                  <p className='text-accent text-sm font-roboto'>Trolamina 6,7 mg/g​</p>
+                  <h2 className='text-primary font-robotobold text-2xl mb-6'>Indicações  </h2>
+                  <p className='text-accent text-sm mb-3 font-roboto'>Formulado para o tratamento de queimaduras de 1º e 2º graus, eritemas solares, vermelhidão da pele associada a radioterapia e terapia a laser e ainda feridas cutâneas superficiais não infetadas.  </p>
+                  <p className='text-accent text-sm font-roboto'>Trolamina 6,7 mg/g </p>
                 </div>
               )}
 
               {activeSection === 'application' && 
               (
                 <div className='text-accent text-sm font-roboto'>
-                  <h2 className='text-primary font-robotobold text-2xl mb-6'>Como aplicar​?​​</h2>
+                  <h2 className='text-primary font-robotobold text-2xl mb-6'>Como aplicar ?  </h2>
                   <h3 className='font-robotobold mb-1'>Queimaduras de primeiro grau e queimaduras solares</h3>
                   <p className='mb-5'>Aplicar Halibut® queimaduras numa camada espessa e deixar penetrar sem esfregar. Repetir este processo 2-4 vezes por dia.</p>
                   <h3 className='font-robotobold mb-1'>Queimaduras de segundo grau e outras feridas não infetadas</h3>

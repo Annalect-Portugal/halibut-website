@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import Banner from '../components/Banner'
 import Title from '../components/Title'
 import desktopHomeBanner from '../assets/banners/queimaduras/desktop_man.png';
@@ -8,7 +8,7 @@ import g60 from '../assets/60g.png';
 import queimadurasIcon from '../assets/section-icons/queimaduras.png'
 import radioterapiaIcon from '../assets/section-icons/radioterapia.png'
 import { Link } from 'react-router-dom';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 
 
 const QueimadurasProduct = () => {
@@ -33,8 +33,8 @@ const QueimadurasProduct = () => {
             </div>
             <div className='flex flex-col'>
               <div>
-                <h2 className='font-robotobold text-2xl text-accent mb-2'>HALIBUT® queimaduras​</h2>
-                <p className='font-roboto text-xl text-accent'>Nova aquisição da marca Halibut®, mas a confiança de sempre. Halibut® queimaduras é uma emulsão cutânea indicada para a pele de toda a família, incluindo bebés e grávidas.​</p>
+                <h2 className='font-robotobold text-2xl text-accent mb-2'>HALIBUT® queimaduras </h2>
+                <p className='font-roboto text-xl text-accent'>Nova aquisição da marca Halibut®, mas a confiança de sempre. Halibut® queimaduras é uma emulsão cutânea indicada para a pele de toda a família, incluindo bebés e grávidas. </p>
               </div>
               <div>
                 <div className='flex space-x-2 mt-12 sm:mt-20 mb-10'>
@@ -62,16 +62,16 @@ const QueimadurasProduct = () => {
             {activeSection === 'indications' && 
             (
               <div>
-                <h2 className='text-primary font-robotobold text-3xl mb-6'>Indicações HALIBUT® Queimaduras​</h2>
+                <h2 className='text-primary font-robotobold text-3xl mb-6'>Indicações HALIBUT® Queimaduras </h2>
                 <p className='text-accent text-lg text-justify'>Formulado para o tratamento de queimaduras de 1º e 2º graus, eritemas solares, vermelhidão da pele associada a radioterapia e terapia a laser, e ainda feridas cutâneas superficiais não infetadas.</p>
-​                <p className='text-accent text-lg'>Trolamina 6,7 mg/g​</p>
+                 <p className='text-accent text-lg'>Trolamina 6,7 mg/g </p>
               </div>
             )}
 
             {activeSection === 'application' && 
             (
               <div>
-                <h2 className='text-primary font-robotobold text-3xl mb-6'>Como aplicar HALIBUT® Queimaduras​?​​</h2>
+                <h2 className='text-primary font-robotobold text-3xl mb-6'>Como aplicar HALIBUT® Queimaduras ?  </h2>
                 <h3 className='font-robotobold mb-1'>Queimaduras de primeiro grau e queimaduras solares</h3>
                   <p className='mb-5 text-justify'>Aplicar Halibut® queimaduras numa camada espessa e deixar penetrar sem esfregar. Repetir este processo 2-4 vezes por dia.</p>
                   <h3 className='font-robotobold mb-1'>Queimaduras de segundo grau e outras feridas não infetadas</h3>

@@ -1,4 +1,3 @@
-import React from 'react'
 import Title from '../components/Title'
 import iconFeridas from '../assets/home-icons/feridas.png'
 import iconIrritacoes from '../assets/home-icons/irritacoes.png'
@@ -8,7 +7,7 @@ import iconRadioterapia from '../assets/home-icons/radioterapia.png'
 import iconSensibilizada from '../assets/home-icons/sensibilizada.png'
 import Card from '../components/Card'
 import { Link } from 'react-router-dom'
-import { Helmet } from 'react-helmet'
+import { Helmet } from 'react-helmet-async'
 
 const Produtos = () => {
   return (

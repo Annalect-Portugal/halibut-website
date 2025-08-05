@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Banner from '../components/Banner';
 import Title from '../components/Title';
 import desktopHomeBanner from '../assets/banners/fraldas/desktop.png';
@@ -12,7 +12,7 @@ import linimento from '../assets/muda-fraldas/produtos/linimento.png';
 import cremeProtetor from '../assets/muda-fraldas/produtos/creme-protetor.png';
 import pomadaReparadora from '../assets/muda-fraldas/produtos/pomada-reparadora.png';
 import pomadaRegeneradora from '../assets/muda-fraldas/produtos/pomada-regeneradora.png';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 
 const produtos = [
   {
@@ -83,19 +83,19 @@ const Fraldas = () => {
             { activeSection === 'indications' && activeProduct === produtos[0].id && (
             <div className='max-w-[80%] mx-auto'>
               <h2 className='text-[#9CD061] font-robotobold text-3xl my-8'>Indicações</h2>
-              <p className='mb-5'>A pele da zona da fralda é particularmente frágil, sendo por isso fundamental manter uma boa higiene​ e prevenir a irritação. HALIBUT Muda Fraldas® Linimento proporciona uma limpeza suave a cada muda de fralda, removendo as impurezas da pele do bebé.​​</p>
-              <p>​Testada dermatológica e pediatricamente, a sua composição com Óleo de Girassol e Óleo de Linhaça, ricos em ácidos gordos, apresenta similaridade com o filme lipídico da pele, contribuindo para a função protetora da pele do bebé.</p>
+              <p className='mb-5'>A pele da zona da fralda é particularmente frágil, sendo por isso fundamental manter uma boa higiene e prevenir a irritação. HALIBUT Muda Fraldas® Linimento proporciona uma limpeza suave a cada muda de fralda, removendo as impurezas da pele do bebé.</p>
+              <p>Testada dermatológica e pediatricamente, a sua composição com Óleo de Girassol e Óleo de Linhaça, ricos em ácidos gordos, apresenta similaridade com o filme lipídico da pele, contribuindo para a função protetora da pele do bebé.</p>
             </div>
             )}
             { activeSection === 'application' && activeProduct === produtos[0].id && (
             <div className='max-w-[80%] mx-auto'>
               <h2 className='text-[#9CD061] font-robotobold text-3xl my-8'>Como aplicar?</h2>
-              <p className='mb-4'>A aplicação deve ser feita com uma compressa ou algodão, em todas as mudas da fralda. Agitar antes de usar.​</p>
+              <p className='mb-4'>A aplicação deve ser feita com uma compressa ou algodão, em todas as mudas da fralda. Agitar antes de usar. </p>
               <p>Principais vantagens:</p>
               <ul>
-                <li>• Inclui na sua composição ingredientes de origem natural ​</li>
-                <li>• Ajuda a eliminar microrganismos e resíduos de creme ou pomada​</li>
-                <li>• Limpeza, proteção e hidratação num só gesto​</li>
+                <li>• Inclui na sua composição ingredientes de origem natural  </li>
+                <li>• Ajuda a eliminar microrganismos e resíduos de creme ou pomada </li>
+                <li>• Limpeza, proteção e hidratação num só gesto </li>
                 <li>• Sem sabão</li>
                 <li>• Evita o desperdício de toalhitas descartáveis</li>
               </ul>
@@ -126,12 +126,12 @@ const Fraldas = () => {
               { activeSection === 'application' && activeProduct === produtos[1].id && (
               <div className='max-w-[80%] mx-auto'>
                 <h2 className='text-[#9CD061] font-robotobold text-3xl my-8'>Como aplicar?</h2>
-                <p className='mb-5'>A utilização Halibut Muda Fraldas® Creme Protetor pode prevenir as assaduras da fralda.<br/>Para isso, deve ser utilizado em todas as mudas da fralda massajando suavemente a pele do bebé.<br/>Por fim, não aperte demasiado a fralda, este gesto ajudará a manter a pele do seu bebé saudável!​<br/>Para a reparação da pele, utilize Halibut Muda Fraldas®​ Pomada Reparadora.</p>
+                <p className='mb-5'>A utilização Halibut Muda Fraldas® Creme Protetor pode prevenir as assaduras da fralda.<br/>Para isso, deve ser utilizado em todas as mudas da fralda massajando suavemente a pele do bebé.<br/>Por fim, não aperte demasiado a fralda, este gesto ajudará a manter a pele do seu bebé saudável! <br/>Para a reparação da pele, utilize Halibut Muda Fraldas®  Pomada Reparadora.</p>
                 <p>Principais vantagens:</p>
                 <ul>
-                  <li>• Textura cremosa e de fácil aplicação​</li>
-                  <li>• Cheiro agradável​</li>
-                  <li>• Não deixa resíduos brancos​</li>
+                  <li>• Textura cremosa e de fácil aplicação </li>
+                  <li>• Cheiro agradável </li>
+                  <li>• Não deixa resíduos brancos </li>
                   <li>• Ideal para o bebé e recém-nascido na zona da fralda e das pregas</li>
                 </ul>
               </div>
@@ -155,19 +155,19 @@ const Fraldas = () => {
               { activeSection === 'indications' && activeProduct === produtos[2].id && (
                 <div className='max-w-[80%] mx-auto'>
                   <h2 className='text-[#9CD061] font-robotobold text-3xl my-8'>Indicações</h2>
-                  <p>Pomada para a reparação da pele quando existe irritação, assadura da fralda e/ou vermelhidão no​ rabinho do bebé. Com miconazol que ajuda a controlar a proliferação de microrganismos na pele e óxido de zinco com uma ação regeneradora dos tecidos e ainda de uma ação protetora e calmante.</p>
+                  <p>Pomada para a reparação da pele quando existe irritação, assadura da fralda e/ou vermelhidão no  rabinho do bebé. Com miconazol que ajuda a controlar a proliferação de microrganismos na pele e óxido de zinco com uma ação regeneradora dos tecidos e ainda de uma ação protetora e calmante.</p>
                 </div>
                 )}
                 { activeSection === 'application' && activeProduct === produtos[2].id && (
                 <div className='max-w-[80%] mx-auto'>
                   <h2 className='text-[#9CD061] font-robotobold text-3xl my-8'>Como aplicar?</h2>
-                  <p className='mb-5'>Aplicar em cada muda da fralda, durante 7 dias, em camada fina e homogénea, na pele limpa e seca. Se ​após estes dias a zona da fralda continuar alterada, consulte o médico. Antes da utilização de HALIBUT Muda Fraldas® Pomada Reparadora recomendamos que limpe suavemente a pele do bebé com​ HALIBUT Muda Fraldas® Linimento, para um cuidado completo na prevenção da assadura da fralda.</p>
+                  <p className='mb-5'>Aplicar em cada muda da fralda, durante 7 dias, em camada fina e homogénea, na pele limpa e seca. Se  após estes dias a zona da fralda continuar alterada, consulte o médico. Antes da utilização de HALIBUT Muda Fraldas® Pomada Reparadora recomendamos que limpe suavemente a pele do bebé com  HALIBUT Muda Fraldas® Linimento, para um cuidado completo na prevenção da assadura da fralda.</p>
                   <p>Principais vantagens:</p>
                   <ul>
-                    <li>• Textura cremosa e fácil de espalhar​</li>
-                    <li>• Cheiro agradável​</li>
+                    <li>• Textura cremosa e fácil de espalhar </li>
+                    <li>• Cheiro agradável </li>
                     <li>• Controla a proliferação de microrganismos</li>
-                    <li>• Não deixa resíduos brancos​</li>
+                    <li>• Não deixa resíduos brancos </li>
                     <li>• Permite ver a evolução da vermelhidão no rabinho do bebé</li>
                   </ul>
                 </div>
@@ -190,19 +190,19 @@ const Fraldas = () => {
               { activeSection === 'indications' && activeProduct === produtos[3].id && (
                 <div className='max-w-[80%] mx-auto'>
                   <h2 className='text-[#9CD061] font-robotobold text-3xl my-8'>Indicações</h2>
-                  <p>Pomada para a reparação da pele quando existe irritação, assadura da fralda e/ou vermelhidão no​ rabinho do bebé. Com miconazol que ajuda a controlar a proliferação de microrganismos na pele e óxido de zinco com uma ação regeneradora dos tecidos e ainda de uma ação protetora e calmante.</p>
+                  <p>Pomada para a reparação da pele quando existe irritação, assadura da fralda e/ou vermelhidão no  rabinho do bebé. Com miconazol que ajuda a controlar a proliferação de microrganismos na pele e óxido de zinco com uma ação regeneradora dos tecidos e ainda de uma ação protetora e calmante.</p>
                 </div>
                 )}
                 { activeSection === 'application' && activeProduct === produtos[3].id && (
                 <div className='max-w-[80%] mx-auto'>
                   <h2 className='text-[#9CD061] font-robotobold text-3xl my-8'>Como aplicar?</h2>
-                  <p className='mb-5'>Aplicar em cada muda da fralda, durante 7 dias, em camada fina e homogénea, na pele limpa e seca. Se ​após estes dias a zona da fralda continuar alterada, consulte o médico. Antes da utilização de HALIBUT Muda Fraldas® Pomada Reparadora recomendamos que limpe suavemente a pele do bebé com​ HALIBUT Muda Fraldas® Linimento, para um cuidado completo na prevenção da assadura da fralda.</p>
+                  <p className='mb-5'>Aplicar em cada muda da fralda, durante 7 dias, em camada fina e homogénea, na pele limpa e seca. Se  após estes dias a zona da fralda continuar alterada, consulte o médico. Antes da utilização de HALIBUT Muda Fraldas® Pomada Reparadora recomendamos que limpe suavemente a pele do bebé com  HALIBUT Muda Fraldas® Linimento, para um cuidado completo na prevenção da assadura da fralda.</p>
                   <p>Principais vantagens:</p>
                   <ul>
-                    <li>• Textura cremosa e fácil de espalhar​</li>
-                    <li>• Cheiro agradável​</li>
+                    <li>• Textura cremosa e fácil de espalhar </li>
+                    <li>• Cheiro agradável </li>
                     <li>• Controla a proliferação de microrganismos</li>
-                    <li>• Não deixa resíduos brancos​</li>
+                    <li>• Não deixa resíduos brancos </li>
                     <li>• Permite ver a evolução da vermelhidão no rabinho do bebé</li>
                   </ul>
                 </div>
@@ -221,8 +221,8 @@ const Fraldas = () => {
                 <h2 className='text-[#9CD061] font-robotobold text-3xl my-8'>Indicações</h2>
                 {produtos.find(p => p.id === activeProduct)?.id === 1 && (
                   <>
-                    <p className='mb-5'>A pele da zona da fralda é particularmente frágil, sendo por isso fundamental manter uma boa higiene​ e prevenir a irritação. HALIBUT Muda Fraldas® Linimento proporciona uma limpeza suave a cada muda de fralda, removendo as impurezas da pele do bebé.​​</p>
-                    <p>​Testada dermatológica e pediatricamente, a sua composição com Óleo de Girassol e Óleo de Linhaça, ricos em ácidos gordos, apresenta similaridade com o filme lipídico da pele, contribuindo para a função protetora da pele do bebé.</p>
+                    <p className='mb-5'>A pele da zona da fralda é particularmente frágil, sendo por isso fundamental manter uma boa higiene  e prevenir a irritação. HALIBUT Muda Fraldas® Linimento proporciona uma limpeza suave a cada muda de fralda, removendo as impurezas da pele do bebé.  </p>
+                    <p> Testada dermatológica e pediatricamente, a sua composição com Óleo de Girassol e Óleo de Linhaça, ricos em ácidos gordos, apresenta similaridade com o filme lipídico da pele, contribuindo para a função protetora da pele do bebé.</p>
                   </>
                 )}
                 {produtos.find(p => p.id === activeProduct)?.id === 2 && (
@@ -232,7 +232,7 @@ const Fraldas = () => {
                 )}
                 {produtos.find(p => p.id === activeProduct)?.id === 3 && (
                   <>
-                    <p>Pomada para a reparação da pele quando existe irritação, assadura da fralda e/ou vermelhidão no​ rabinho do bebé. Com miconazol que ajuda a controlar a proliferação de microrganismos na pele e óxido de zinco com uma ação regeneradora dos tecidos e ainda de uma ação protetora e calmante.</p>
+                    <p>Pomada para a reparação da pele quando existe irritação, assadura da fralda e/ou vermelhidão no  rabinho do bebé. Com miconazol que ajuda a controlar a proliferação de microrganismos na pele e óxido de zinco com uma ação regeneradora dos tecidos e ainda de uma ação protetora e calmante.</p>
                   </>
                 )}
                 {produtos.find(p => p.id === activeProduct)?.id === 4 && (
@@ -247,12 +247,12 @@ const Fraldas = () => {
                 <h2 className='text-[#9CD061] font-robotobold text-3xl my-8'>Como aplicar?</h2>
                 {produtos.find(p => p.id === activeProduct)?.id === 1 && (
                   <>
-                    <p className='mb-4'>A aplicação deve ser feita com uma compressa ou algodão, em todas as mudas da fralda. Agitar antes de usar.​</p>
+                    <p className='mb-4'>A aplicação deve ser feita com uma compressa ou algodão, em todas as mudas da fralda. Agitar antes de usar. </p>
                     <p>Principais vantagens:</p>
                     <ul>
-                      <li>• Inclui na sua composição ingredientes de origem natural ​</li>
-                      <li>• Ajuda a eliminar microrganismos e resíduos de creme ou pomada​</li>
-                      <li>• Limpeza, proteção e hidratação num só gesto​</li>
+                      <li>• Inclui na sua composição ingredientes de origem natural  </li>
+                      <li>• Ajuda a eliminar microrganismos e resíduos de creme ou pomada </li>
+                      <li>• Limpeza, proteção e hidratação num só gesto </li>
                       <li>• Sem sabão</li>
                       <li>• Evita o desperdício de toalhitas descartáveis</li>
                     </ul>
@@ -260,25 +260,25 @@ const Fraldas = () => {
                 )}
                 {produtos.find(p => p.id === activeProduct)?.id === 2 && (
                   <>
-                    <p className='mb-5'>A utilização Halibut Muda Fraldas® Creme Protetor pode prevenir as assaduras da fralda.<br/>Para isso, deve ser utilizado em todas as mudas da fralda massajando suavemente a pele do bebé.<br/>Por fim, não aperte demasiado a fralda, este gesto ajudará a manter a pele do seu bebé saudável!​<br/>Para a reparação da pele, utilize Halibut Muda Fraldas®​ Pomada Reparadora.</p>
+                    <p className='mb-5'>A utilização Halibut Muda Fraldas® Creme Protetor pode prevenir as assaduras da fralda.<br/>Para isso, deve ser utilizado em todas as mudas da fralda massajando suavemente a pele do bebé.<br/>Por fim, não aperte demasiado a fralda, este gesto ajudará a manter a pele do seu bebé saudável! <br/>Para a reparação da pele, utilize Halibut Muda Fraldas®  Pomada Reparadora.</p>
                     <p>Principais vantagens:</p>
                     <ul>
-                      <li>• Textura cremosa e de fácil aplicação​</li>
-                      <li>• Cheiro agradável​</li>
-                      <li>• Não deixa resíduos brancos​</li>
+                      <li>• Textura cremosa e de fácil aplicação </li>
+                      <li>• Cheiro agradável </li>
+                      <li>• Não deixa resíduos brancos </li>
                       <li>• Ideal para o bebé e recém-nascido na zona da fralda e das pregas</li>
                     </ul>
                   </>
                 )}
                 {produtos.find(p => p.id === activeProduct)?.id === 3 && (
                   <>
-                    <p className='mb-5'>Aplicar em cada muda da fralda, durante 7 dias, em camada fina e homogénea, na pele limpa e seca. Se ​após estes dias a zona da fralda continuar alterada, consulte o médico. Antes da utilização de HALIBUT Muda Fraldas® Pomada Reparadora recomendamos que limpe suavemente a pele do bebé com​ HALIBUT Muda Fraldas® Linimento, para um cuidado completo na prevenção da assadura da fralda.</p>
+                    <p className='mb-5'>Aplicar em cada muda da fralda, durante 7 dias, em camada fina e homogénea, na pele limpa e seca. Se  após estes dias a zona da fralda continuar alterada, consulte o médico. Antes da utilização de HALIBUT Muda Fraldas® Pomada Reparadora recomendamos que limpe suavemente a pele do bebé com  HALIBUT Muda Fraldas® Linimento, para um cuidado completo na prevenção da assadura da fralda.</p>
                     <p>Principais vantagens:</p>
                     <ul>
-                      <li>• Textura cremosa e fácil de espalhar​</li>
-                      <li>• Cheiro agradável​</li>
+                      <li>• Textura cremosa e fácil de espalhar </li>
+                      <li>• Cheiro agradável </li>
                       <li>• Controla a proliferação de microrganismos</li>
-                      <li>• Não deixa resíduos brancos​</li>
+                      <li>• Não deixa resíduos brancos </li>
                       <li>• Permite ver a evolução da vermelhidão no rabinho do bebé</li>
                     </ul>
                   </>
@@ -288,11 +288,11 @@ const Fraldas = () => {
                     <p className='mb-5'>Aplicar em cada muda da fralda, em camada fina e homogénea na pele limpa e seca. Antes da utilização de HALIBUT Muda Fraldas® Pomada Regeneradora 45ZN recomendamos que limpe suavemente a pele do bebé com HALIBUT Muda Fraldas® Linimento, para um cuidado completo do rabinho do bebé.</p>
                     <p>Principais vantagens:</p>
                     <ul className='mb-5'>
-                      <li>• Protege e regenera a pele 3x mais rápido**<sup>1</sup>​</li>
-                      <li>• 96% dos utilizadores referiram sentir a pele do seu bebé mais hidratada, protegida e regenerada*​</li>
+                      <li>• Protege e regenera a pele 3x mais rápido**<sup>1</sup> </li>
+                      <li>• 96% dos utilizadores referiram sentir a pele do seu bebé mais hidratada, protegida e regenerada* </li>
                       <li>• 96% dos utilizadores referiram verificar uma redução da vermelhidão e irritação na pele do seu bebé*</li>
                       <li>• Textura agradável e fácil de espalhar*</li>
-                      <li>• Não deixa resíduos brancos​</li>
+                      <li>• Não deixa resíduos brancos </li>
                       <li>• Permite ver a evolução da vermelhidão da pele</li>
                     </ul>
                     <div className='text-left mt-10'>

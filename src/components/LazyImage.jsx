@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 const LazyImage = ({ src, alt, ...props }) => {
   const [imageSrc, setImageSrc] = useState(null);
 
   useEffect(() => {
-    const img = new Image();
+    const img = new window.Image();
     img.src = src;
     img.onload = () => setImageSrc(src);
   }, [src]);

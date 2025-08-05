@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Card = ({ image, title, titleColor }) => {
     return (
         <div className="sm:w-[250px] min-h-[300px] space-y-5 rounded overflow-hidden shadow-2xl flex flex-col justify-center items-center font-roboto">

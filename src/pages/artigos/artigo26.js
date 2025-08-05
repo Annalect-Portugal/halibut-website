@@ -3,7 +3,7 @@
 const artigo26 = {
     categoria: "Conforto & Segurança",
     imagem: '/artigos/26.png',
-    titulo: "Adaptação dos animais domésticos à chegada de um bebé",
+    titulo: "Adaptação dos animais domésticos à  chegada de um bebé",
     data: "18 Setembro 2024",
     preview: "A chegada de um bebé altera as rotinas, incluindo as dos animais de estimação. A APEO e a MEDINFAR partilham dicas para ajudar os animais a se adaptarem de forma harmoniosa.",
     conteudo: `
@@ -16,9 +16,9 @@ const artigo26 = {
 
             <div className="">
                 <ul className="list-disc list-inside space-y-3 pl-5 mb-4">
-                    <li>Os gatos, por serem naturalmente desobedientes, podem explorar os brinquedos do bebé distribuídos pela casa para se habituarem às novidades.</li>
+                    <li>Os gatos, por serem naturalmente desobedientes, podem explorar os brinquedos do bebé distribuídos pela casa para se habituarem à s novidades.</li>
                     <li>Coloque sons de choro e ruídos de bebés para que os animais se familiarizem. Reforce positivamente com recompensas, para que associem o som a algo positivo.</li>
-                    <li>Habituar os animais à presença de barreiras físicas entre o espaço do bebé e o espaço do animal, impedindo a entrada no quarto onde ficará o berço.</li>
+                    <li>Habituar os animais à  presença de barreiras físicas entre o espaço do bebé e o espaço do animal, impedindo a entrada no quarto onde ficará o berço.</li>
                     <li>Se o cão costuma saltar de excitação, treine-o para ficar no chão sempre que tiver o bebé ao colo.</li>
                     <li>Durante a hospitalização da mãe, evite deixar o animal sozinho por longos períodos e mantenha a rotina de alimentação e higiene.</li>
                     <li>Familiarize o animal com o cheiro da primeira roupa usada pelo bebé antes da chegada a casa.</li>
