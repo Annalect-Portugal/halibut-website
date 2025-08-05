@@ -6,8 +6,10 @@ import reactRefreshPlugin from 'eslint-plugin-react-refresh';
 export default [
   eslint.configs.recommended,
   {
+    ignores: ['dist/**', 'node_modules/**']
+  },
+  {
     files: ['**/*.{js,jsx,ts,tsx}'],
-    ignores: ['dist/**', 'node_modules/**'],
     languageOptions: {
       ecmaVersion: 'latest',
       sourceType: 'module',
