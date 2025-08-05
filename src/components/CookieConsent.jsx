@@ -3,11 +3,6 @@ import Cookies from 'js-cookie';
 import { Link } from 'react-router-dom';
 import { Cookie } from 'lucide-react';
 
-const removeNonEssentialCookies = () => {
-  const nonEssentialCookies = ['analytics', 'ads', 'tracking'];
-  nonEssentialCookies.forEach(cookie => Cookies.remove(cookie));
-};
-
 const loadGTM = () => {
   if (window.dataLayer) return;
   

@@ -20,7 +20,7 @@ const artigo6 = {
                         Tapar de seguida a narina superior do bebé (onde se acabou de colocar o soro) – isto vai fazer com que ele fungue, direcionando o soro para os seios perinasais da narina inferior, limpando-os. O soro colocado na narina superior poderá sair posteriormente pela narina inferior ou ser engolido pelo bebé.
                     </li>
                     <li>
-                        Repetir o mesmo processo voltando a cabeça do bebé para o outro lado e procedendo à colocação do soro através da outra narina.
+                        Repetir o mesmo processo voltando a cabeça do bebé para o outro lado e procedendo à  colocação do soro através da outra narina.
                     </li>
                     <li>
                         Em situações em que há dificuldade em expelir as secreções por este processo (quando são muito espessas e em grande quantidade) pode-se utilizar um aspirador nasal para as ajudar a exteriorizar. O aspirador deve ser utilizado na narina inferior, após colocação do soro na narina superior.

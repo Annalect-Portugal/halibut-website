@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 
 const ProductCard = ({ image, title, description, mlImages, onButton1Click, onButton2Click, button1Style, button2Style, linkUrl }) => {
