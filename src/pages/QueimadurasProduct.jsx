@@ -8,7 +8,7 @@ import g60 from '../assets/60g.png';
 import queimadurasIcon from '../assets/section-icons/queimaduras.png'
 import radioterapiaIcon from '../assets/section-icons/radioterapia.png'
 import { Link } from 'react-router-dom';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 
 
 const QueimadurasProduct = () => {

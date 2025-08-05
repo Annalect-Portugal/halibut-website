@@ -9,7 +9,7 @@ import g150 from '../assets/100g.png'
 import queimaduras from '../assets/feridas/pomadaoriginal.png'
 import { Link } from 'react-router-dom';
 import { MoveRight } from 'lucide-react';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 
 const Irritacoes = () => {
 

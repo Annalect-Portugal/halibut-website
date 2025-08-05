@@ -7,7 +7,7 @@ import g60 from '../assets/60g.png'
 import queimaduras from '../assets/queimaduras/queimaduras.png'
 import { Link } from 'react-router-dom';
 import { MoveRight } from 'lucide-react';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 
 const Queimaduras = () => {
 

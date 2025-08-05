@@ -8,7 +8,7 @@ import ml200 from '../assets/200ml.png'
 import linimentoIcons from '../assets/muda-fraldas/produtos/linimento/linimento-icons.png'
 import linimentoLastIcon from '../assets/muda-fraldas/produtos/linimento/linimento-mudafraldas.png'
 import { Link } from 'react-router-dom';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 
 const FraldasLinimento = () => {
   const [activeSection, setActiveSection] = useState('indications');

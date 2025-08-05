@@ -1,7 +1,7 @@
 import React from 'react'
 import error404 from '../assets/404error.png'
 import { Link } from 'react-router-dom'
-import { Helmet } from 'react-helmet'
+import { Helmet } from 'react-helmet-async'
 
 const Error404 = () => {
   return (

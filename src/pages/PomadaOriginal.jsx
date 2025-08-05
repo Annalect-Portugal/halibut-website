@@ -10,7 +10,7 @@ import g150 from '../assets/100g.png';
 import { Link } from 'react-router-dom';
 import irritacoesIcon from '../assets/section-icons/irritacoes.png'
 import feridasIcon from '../assets/section-icons/feridas.png'
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 
 const PomadaOriginal = () => {
   const [activeSection, setActiveSection] = useState('indications');

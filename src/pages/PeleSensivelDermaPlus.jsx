@@ -5,7 +5,7 @@ import dermaProduct from '../assets/pelesensibilizada/derma.png'
 import g60 from '../assets/60g.png';
 import sensibilizadaIcon from '../assets/section-icons/sensibilizada.png'
 import { Link } from 'react-router-dom';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 
 
 const PeleSensivelDermaPlus = () => {

@@ -10,7 +10,7 @@ import g150 from '../assets/150g.png';
 import protetorIcons from '../assets/muda-fraldas/produtos/protetor/protetor-icons.png'
 import mudafraldasIcon from '../assets/muda-fraldas/produtos/linimento/linimento-mudafraldas.png'
 import { Link } from 'react-router-dom';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 
 const FraldasProtetor = () => {
   const [activeSection, setActiveSection] = useState('indications');

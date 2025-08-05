@@ -4,7 +4,7 @@ import { ChevronRight } from 'lucide-react'
 import Banner from '../components/Banner';
 import desktopHomeBanner from '../assets/banners/blog/desktop.png';
 import mobileHomeBanner from '../assets/banners/blog/mobile.png';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 import { Link, useNavigate } from 'react-router-dom';
 import logo from '../assets/logo.png';
 

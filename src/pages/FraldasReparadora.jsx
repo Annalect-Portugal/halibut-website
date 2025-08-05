@@ -9,7 +9,7 @@ import g100 from '../assets/100g.png';
 import pomadaReparadoraIcons from '../assets/muda-fraldas/produtos/reparadora/reparadora-icons.png'
 import mudaFraldasIcon from '../assets/muda-fraldas/produtos/linimento/linimento-mudafraldas.png'
 import { Link } from 'react-router-dom';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 
 const FraldasReparadora = () => {
   const [activeSection, setActiveSection] = useState('indications');

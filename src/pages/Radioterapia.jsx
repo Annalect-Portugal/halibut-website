@@ -10,7 +10,7 @@ import prevenirtrauma from '../assets/radioterapia/previnirtrauma.png'
 import dor from '../assets/radioterapia/dor.png'
 import infecao from '../assets/radioterapia/infecao.png'
 import tratartrauma from '../assets/radioterapia/tratartrauma.png'
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 import dermatite from '../assets/radioterapia/dermatite.png'
 
 const Radioterapia = () => {

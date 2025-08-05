@@ -12,7 +12,7 @@ import linimento from '../assets/muda-fraldas/produtos/linimento.png';
 import cremeProtetor from '../assets/muda-fraldas/produtos/creme-protetor.png';
 import pomadaReparadora from '../assets/muda-fraldas/produtos/pomada-reparadora.png';
 import pomadaRegeneradora from '../assets/muda-fraldas/produtos/pomada-regeneradora.png';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 
 const produtos = [
   {

@@ -4,7 +4,7 @@ import dermaProduct from '../assets/pelesensibilizada/derma.png'
 import { Link } from 'react-router-dom'
 import g30 from '../assets/30g.png'
 import Title from '../components/Title'
-import { Helmet } from 'react-helmet'
+import { Helmet } from 'react-helmet-async'
 
 const PeleSensibilizada = () => {
   const [activeSection, setActiveSection] = useState('');
