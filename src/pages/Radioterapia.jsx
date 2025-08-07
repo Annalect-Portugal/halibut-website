@@ -29,8 +29,7 @@ const Radioterapia = () => {
         <title>Gama Radioterapia e Terapia a Laser - Halibut</title>
       </Helmet>
       <div 
-        className="w-full h-[600px] bg-cover bg-center sm:flex items-center justify-center hidden flex-col"
-        style={{ backgroundColor:'#D0D0CE' }}
+        className="w-full h-[600px] bg-cover bg-center sm:flex items-center justify-center hidden flex-col bg-gray-radioterapia"
       >
           <img src={radioterapia} alt="" />
           <h1 className='text-primary font-robotobold text-6xl my-6'>Cuidados durante a Radioterapia</h1>
@@ -40,8 +39,7 @@ const Radioterapia = () => {
       </div>
       
       <div 
-        className="h-[420px] bg-cover flex items-center justify-center sm:hidden flex-col"
-        style={{ backgroundColor:'#D0D0CE' }}
+        className="h-[420px] bg-cover flex items-center justify-center sm:hidden flex-col bg-gray-radioterapia"
       >
         <img src={radioterapia} alt="" />
         <h1 className='text-primary font-robotobold text-2xl my-6'>Cuidados durante a Radioterapia</h1>

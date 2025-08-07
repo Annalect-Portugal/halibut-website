@@ -29,8 +29,7 @@ const PeleSensivelDermaPlus = () => {
         </div>
         
         <div 
-            className="h-[420px] bg-cover flex items-center justify-center sm:hidden flex-col"
-            style={{ backgroundColor:'#FAC404' }}
+            className="h-[420px] bg-cover flex items-center justify-center sm:hidden flex-col bg-yellow-halibut"
         >
             <img src={peleIcon} className='max-w-[50%]' alt="" />
         </div>

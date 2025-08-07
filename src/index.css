@@ -15,6 +15,44 @@ html{
   text-align: justify;
 } */
 
+/* Card title styling */
+.card-title {
+  min-height: 50px;
+}
+
+/* Card title colors matching the exact design */
+.card-title-green {
+  color: #AECC50; /* Muda Fraldas */
+}
+
+.card-title-red {
+  color: #DD0029; /* Queimaduras */
+}
+
+.card-title-orange {
+  color: #F57A07; /* Feridas */
+}
+
+.card-title-teal {
+  color: #116F77; /* Irritações */
+}
+
+.card-title-gray {
+  color: #9A9596; /* Radioterapia */
+}
+
+.card-title-yellow {
+  color: #FAC404; /* Pele Sensibilizada */
+}
+
+/* Custom background colors to match exact design */
+.bg-yellow-halibut {
+  background-color: #FAC404;
+}
+
+.bg-gray-radioterapia {
+  background-color: #D0D0CE;
+}
 
 @font-face {
   font-family: 'Roboto';
