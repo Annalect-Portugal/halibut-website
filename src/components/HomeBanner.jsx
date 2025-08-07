@@ -101,9 +101,8 @@ const HomeBanner = ({ banners }) => {
             {banners.length > 1 && hasPrev && (
                 <button
                     onClick={prevSlide}
-                    className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-white/70 rounded-full px-1 py-1 flex items-center justify-center"
+                    className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-white/70 rounded-full px-1 py-1 nav-button"
                     aria-label="Previous"
-                    style={{ width: 32, height: 32, display: 'flex', alignItems: 'center', justifyContent: 'center' }}
                 >
                     {/* Left triangle SVG with slightly rounded edges and filled with primary color */}
                     <svg width="20" height="20" viewBox="0 0 28 28" fill="none">
@@ -121,9 +120,8 @@ const HomeBanner = ({ banners }) => {
             {banners.length > 1 && hasNext && (
                 <button
                     onClick={nextSlide}
-                    className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-white/70 rounded-full px-1 py-1 flex items-center justify-center"
+                    className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-white/70 rounded-full px-1 py-1 nav-button"
                     aria-label="Next"
-                    style={{ width: 32, height: 32, display: 'flex', alignItems: 'center', justifyContent: 'center' }}
                 >
                     {/* Right triangle SVG with slightly rounded edges and filled with primary color */}
                     <svg width="20" height="20" viewBox="0 0 28 28" fill="none">
@@ -146,14 +144,10 @@ const HomeBanner = ({ banners }) => {
                         <button
                             key={idx}
                             onClick={() => goToSlide(idx)}
-                            className={`w-3 h-3 rounded-full border-2 border-white flex items-center justify-center transition-colors duration-200 ${
-                                idx === current ? 'bg-[rgb(17,111,119)]' : 'bg-gray-300'
+                            className={`w-3 h-3 rounded-full border-2 border-white flex items-center justify-center transition-colors duration-200 pagination-button ${
+                                idx === current ? 'bg-[rgb(17,111,119)] pagination-button-active' : 'bg-gray-300'
                             }`}
                             aria-label={`Go to slide ${idx + 1}`}
-                            style={{
-                                boxShadow: idx === current ? '0 0 0 2px rgba(17,111,119,0.3)' : undefined,
-                                padding: 0 // Remove default button padding for perfect centering
-                            }}
                         />
                     ))}
                 </div>
