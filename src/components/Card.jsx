@@ -18,8 +18,14 @@ const Card = ({ image, title, titleColor }) => {
             <div className="px-6 py-4">
                 <p 
                     className={`font-bold text-xl mb-2 text-center card-title ${getColorClass(titleColor)}`}
-                    dangerouslySetInnerHTML={{ __html: title }}
-                ></p>
+                >
+                    {title.split('<br/>').map((part, index, array) => (
+                        <span key={index}>
+                            {part}
+                            {index < array.length - 1 && <br />}
+                        </span>
+                    ))}
+                </p>
             </div>
         </div>
     );
