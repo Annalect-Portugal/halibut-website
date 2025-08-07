@@ -21,16 +21,14 @@ const PeleSensivelDermaPlus = () => {
           <title>HALIBUT Derma® Plus - Halibut</title>
         </Helmet>
         <div 
-            className="w-full h-[600px] bg-cover bg-center sm:flex items-center justify-center hidden flex-col"
-            style={{ backgroundColor:'#FAC404' }}
+            className="w-full h-[600px] bg-cover bg-center sm:flex items-center justify-center hidden flex-col bg-yellow-halibut"
         >
             <img src={peleIcon} alt="" />
 
         </div>
         
         <div 
-            className="h-[420px] bg-cover flex items-center justify-center sm:hidden flex-col"
-            style={{ backgroundColor:'#FAC404' }}
+            className="h-[420px] bg-cover flex items-center justify-center sm:hidden flex-col bg-yellow-halibut"
         >
             <img src={peleIcon} className='max-w-[50%]' alt="" />
         </div>
