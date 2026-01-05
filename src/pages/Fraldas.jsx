@@ -187,10 +187,10 @@ const Fraldas = () => {
               button2Style={activeProduct === produtos[3].id && activeSection === 'application' ? 'bg-[#9CD061] text-white' : 'bg-white text-black'}
             />
             <div className='sm:hidden'>
-              { activeSection === 'indications' && activeProduct === produtos[3].id && (
+                { activeSection === 'indications' && activeProduct === produtos[3].id && (
                 <div className='max-w-[80%] mx-auto'>
                   <h2 className='text-[#9CD061] font-robotobold text-3xl my-8'>Indicações</h2>
-                  <p>Pomada para a reparação da pele quando existe irritação, assadura da fralda e/ou vermelhidão no  rabinho do bebé. Com miconazol que ajuda a controlar a proliferação de microrganismos na pele e óxido de zinco com uma ação regeneradora dos tecidos e ainda de uma ação protetora e calmante.</p>
+                  <p>Pomada para a regeneração da pele a cada muda da fralda. Protege o rabinho do bebé, promove a regeneração da pele e ajuda a aliviar as irritações, assaduras e vermelhidão da pele. Com 45% de óxido de zinco. Testado em pele atópica e sensível. Testado pediátrica e dermatologicamente.</p>
                 </div>
                 )}
                 { activeSection === 'application' && activeProduct === produtos[3].id && (
